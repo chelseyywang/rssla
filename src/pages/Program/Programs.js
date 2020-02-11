@@ -35,7 +35,7 @@ class Programs extends Component {
             <React.Fragment>
 
                 <div class='what-do-we-do'>
-                    <div class='what-do-we-do-title'>What do we do?</div>
+                    <div class='what-do-we-do-title'>PROGRAMS</div>
                     <div class='what-do-we-do-body'>
                         The Regents Scholar Society hosts multiple events through the year.
                         Some connect our members to resources, while others strive to engage the broader UCLA and local community.
@@ -57,7 +57,9 @@ class Programs extends Component {
                         <div id="title">
                             Los Angeles Mentorship Program (L.A.M.P.)
                     </div>
+                    {/** 
                         <img id="left" src={LAMP_logo} width="350" height="350" />
+                        */}
                         <div id="text-LAMP">
                             <p1>
                                 The Los Angeles Mentorship Program (LAMP) provides UCLA students the opportunity to give back to the local
@@ -87,7 +89,7 @@ class Programs extends Component {
                                 this campus-wide speaker event is put on by students, for students. The aim of SPIEL is to give students from
                                 all backgrounds the chance to talk about something that is not only important to the presenters themselves,
                                 but is also often important to the greater UCLA and global community.
-                            <br></br>
+                                <br></br>
                                 <br></br>
                                 In the past, SPIEL presenters have addressed a variety of topics, ranging from mental health to ground-breaking student research.
                         </p1>
