@@ -10,6 +10,7 @@ import background_1 from './pictures/2018_InterUC_2.HEIC';
 import kaplan from './pictures/kaplan.png';
 import Carousel from 'react-bootstrap/Carousel';
 import bootstrap from 'bootstrap/dist/css/bootstrap.css';
+import AboutCarousel from './AboutCarousel'
 
 function About() {
     return (
@@ -20,8 +21,7 @@ function About() {
                     <br />
                     <br />
                     <hr />
-                    <br />
-                    <br />
+                    
                 </div>
                 <div class='body-1-text'>
                     Members of the Regents Scholar Society are the top 1.5% of UCLA undergraduate applicants each year.
@@ -49,48 +49,7 @@ function About() {
                 </div>
             </div>
 
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src={conference_2019} alt="Chania" />
-                        <div class="carousel-caption">
-                            <h3>Los Angeles</h3>
-                            <p>LA is always so much fun!</p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src={kayaking_2018} alt="Chicago" />
-                        <div class="carousel-caption">
-                            <h3>Chicago</h3>
-                            <p>Thank you, Chicago!</p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="ny.jpg" alt="New York" />
-                        <div class="carousel-caption">
-                            <h3>New York</h3>
-                            <p>We love the Big Apple!</p>
-                        </div>
-                    </div>
-
-                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
+            <AboutCarousel />
 
             <div class='body-3'>
                 <div class='body-3-wrap'>
