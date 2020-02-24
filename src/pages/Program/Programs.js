@@ -166,8 +166,6 @@ class Programs extends Component {
                                     <li>Website</li>
                                     <li>Los Angeles Mentorship Program (LAMP)</li>
                                 </ul>
-                                    {/* <img className="committee_pic" src={ committee_pic} width="350" height="350" /> */}
-
                             </div>
 
                         </div>
