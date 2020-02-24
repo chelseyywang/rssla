@@ -2,10 +2,10 @@
     /* position: fixed; */
     top: 0; /* Stick it to the top */
     height: 70px;
-    width: 100vw;
+    width: 90;
   
     display: grid;
-    grid-template-areas: "logo nav";
+    grid-template-areas: "logo title nav";
   
     /* Cosmetics */
     background-color: black;
@@ -19,7 +19,7 @@
     grid-area: logo;
     height: 70px;
   }
-  
+
   .Nav {
     display: grid;
     grid-area: nav;
@@ -96,21 +96,9 @@
   }
   
   .Logo{
-    width: 51px;
-    height: 51px;
+    width: 55px;
+    height: 55px;
     padding-left: 3%;
     padding-top: 1.5%;
     padding-bottom: 1.5%; 
-}
-
-.top-rssla{
-  color: #F2FAFF; 
-  font-size: 30px; 
-  font-weight: 400; 
-  text-decoration: none;
-  display: flex; 
-  flex-direction: row; 
-  margin-top: auto; 
-  margin-bottom: auto; 
-  font-family: 'Playfair Display', monospace;
 }

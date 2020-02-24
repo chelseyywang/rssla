@@ -19,7 +19,7 @@ import Prospectives from "./pages/Prospectives";
 //     </Router>
 // )
 
-ReactDOM.render(<AppRouter />, document.getElementById('root'));
+ReactDOM.render(< AppRouter />, document.getElementById('root'));
 
 // ReactDOM.render(<App/>, document.getElementById('root')); 
 

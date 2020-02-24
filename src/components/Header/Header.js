@@ -1,4 +1,4 @@
-import React from 'react';
+/** import React from 'react';
 import './Header.css';
 import RSS_logo from './nav_bar_logo.png'; // RSS logo
 console.log(RSS_logo);
@@ -25,3 +25,4 @@ function Header() {
 
 export default Header;
 
+*/

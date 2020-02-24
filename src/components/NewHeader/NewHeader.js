@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React, { useState, useEffect } from "react";
 import "./newHeader.css";
-import CSSTransition from "react-transition-group";
+import { CSSTransition } from "react-transition-group";
 
-/** 
+
 export default function NewHeader() {
   const [isNavVisible, setNavVisibility] = useState(false);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -32,7 +32,8 @@ export default function NewHeader() {
 
   return (
     <header className="Header">
-      <img src={require("../assets/logo.png")} className="Logo" alt="logo" />
+      <img src={require("./nav_bar_logo.png")} className="Logo" alt="logo" /> 
+
       <CSSTransition
         in={!isSmallScreen || isNavVisible}
         timeout={350}
@@ -52,4 +53,3 @@ export default function NewHeader() {
     </header>
   );
 }
-*/

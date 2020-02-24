@@ -7,20 +7,12 @@ import Prospectives from './pages/Prospectives';
 import Programs from './pages/Program/Programs'; 
 import About from './pages/About'; 
 import Board from './pages/Board';
-import NewHeader from './components/Header/Header'; 
-// function AppRouter(){
-//   return(
-//     <Router>
-
-//     </Router>
-//   ); 
-// }
+import NewHeader from './components/NewHeader/NewHeader'; 
 
 function AppRouter() {
   return (
     <div>
       <BrowserRouter>
-      {/* <Header/> */}
       <NewHeader/>
       <Switch>
         <Route path='/' exact component={About} />
