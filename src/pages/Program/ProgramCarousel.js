@@ -4,8 +4,8 @@ import { Carousel } from 'react-responsive-carousel';
 
 import './ProgramCarousel.css'
 
-import pic1 from '../pictures/2019_Conference.jpg';
-import pic2 from '../pictures/banner-bg4.jpg';
+import pic1 from '../pictures/2017_Beach_Cleanup.JPG';
+import pic2 from '../pictures/2018_Beach_Cleanup_(2).jpg';
 
 
 class ProgramCarousel extends Component {
@@ -14,11 +14,11 @@ class ProgramCarousel extends Component {
             <Carousel>
                 <div>
                     <img src = {pic1}/>
-                    <p className="legend">LAMP</p>
+                    <p className="legend">beach cleanup, 2017</p>
                 </div>
                 <div>
                     <img src = {pic2} />
-                    <p className="legend">SPIEL</p>
+                    <p className="legend">venice beach cleanup, 2018</p>
                 </div>
 
             </Carousel>

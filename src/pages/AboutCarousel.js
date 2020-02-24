@@ -4,10 +4,10 @@ import { Carousel } from 'react-responsive-carousel';
 
 import './AboutCarousel.css'
 
-import pic1 from './pictures/2017_SD.jpg';
+import pic1 from './pictures/2019_Conference.jpg';
 import pic2 from './pictures/2018_Kayaking_2.JPG';
-import pic3 from './pictures/2019_fire_bonfire.jpg.HEIC';
-import pic4 from './pictures/2019 Broomball (2).HEIC'
+import pic3 from './pictures/2018_DinnerwiththeDean.jpg';
+import pic4 from './pictures/2017_SD.jpg'
 
 
 class AboutCarousel extends Component {
@@ -16,7 +16,7 @@ class AboutCarousel extends Component {
             <Carousel>
                 <div>
                     <img src = {pic1}/>
-                    <p className="legend">inter-uc event at the san diego zoo</p>
+                    <p className="legend">inter-uc conference at ucsb, 2019</p>
                 </div>
                 <div>
                     <img src = {pic2} />
@@ -24,11 +24,11 @@ class AboutCarousel extends Component {
                 </div>
                 <div>
                     <img src = {pic3} />
-                    <p className="legend">bonfire at dockweiler beach, 2019</p>
+                    <p className="legend">dinner with the dean, 2018</p>
                 </div>
                 <div>
                     <img src = {pic4} />
-                    <p className="legend">broomball, 2019</p>
+                    <p className="legend">inter-uc event at the san diego zoo, 2017</p>
                 </div>
 
             </Carousel>
