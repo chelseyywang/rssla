@@ -32,8 +32,10 @@ export default function NewHeader() {
 
   return (
     <header className="Header">
+      <div style={{display: "flex", flexDirection: "row"}}>
       <img src={require("./nav_bar_logo.png")} className="Logo" alt="logo" /> 
-
+      <div style={{color: "white", fontSize: 30, paddingTop: 7, paddingLeft: 8, fontFamily: "Playfair Display"}}> RSSLA</div>
+      </div>
       <CSSTransition
         in={!isSmallScreen || isNavVisible}
         timeout={350}
@@ -48,7 +50,7 @@ export default function NewHeader() {
         </nav>
       </CSSTransition>
       <button onClick={toggleNav} className="Burger">
-        🍔
+      <img src={require("./nav_bar_logo.png")} className="Logo" alt="logo" /> 
       </button>
     </header>
   );
