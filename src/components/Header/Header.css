@@ -8,12 +8,7 @@
     justify-content: space-between; 
     font-family: 'Playfair Display', monospace;
 }
-.top-rssla{
-    color: #F2FAFF; 
-    font-size: 3.5vh; 
-    padding: 1%; 
-    font-weight: 400; 
-    text-decoration: none;
+
 }
 .top-rssla:hover{
     color: white;
