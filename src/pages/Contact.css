@@ -1,0 +1,28 @@
+#contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3%;
+  padding-bottom: 15%;
+}
+
+.contact-form {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+}
+
+.contact-form .column {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+#text {
+  font-size: 250%;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#contact-description {
+
+}
