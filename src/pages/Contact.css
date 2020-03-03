@@ -12,11 +12,6 @@
   flex-direction: column;
 }
 
-.contact-form .column {
-  display: flex;
-  margin-bottom: 5%;
-}
-
 #text {
   font-size: 250%;
   font-weight: bold;
