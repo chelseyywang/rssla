@@ -16,7 +16,7 @@ import Maggie from './../eboard-pictures/maggie.JPG';
 import Nikki from './../eboard-pictures/nikki.JPG';
 import Nilla from './../eboard-pictures/nilla.png';
 import Pranit from './../eboard-pictures/pranit.jpg';
-import Raymond from './../eboard-pictures/Raymond.jpeg';
+import Raymond from './../eboard-pictures/Raymond.jpg';
 
 function Board(){
     return([
