@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Nunito+Sans|Overpass+Mono|Playfair+Display|Roboto|Source Sans Pro'); 
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Nunito+Sans|Overpass+Mono|Playfair+Display|Roboto|Source Sans Pro');
 
 * {
-    margin: 0px; 
+    margin: 0px;
 }
 
 .prospectives {
@@ -10,31 +10,31 @@
 
 .body-1-prospectives {
     width: 100%;
-    padding: 20px; 
-    padding-top: 100px; 
-    padding-bottom: 250px; 
-    background-color: rgba(0,0,0,0.7); 
+    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 250px;
+    background-color: rgba(0,0,0,0.7);
     background-image: linear-gradient(
-        rgba(0,0,0,0.7), 
+        rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)
       ), url("http://rssla.org/img/banner-bg5.jpg");
     /* background-repeat: no-repeat; */
-    background-size: cover;  
+    background-size: cover;
     /* height: 100vh; */
 }
 
 .body-1-title {
-    font-size: 75px; 
+    font-size: 75px;
     font-family: 'Overpass Mono', monospace;
-    padding: 5%; 
-    color: white; 
+    padding: 5%;
+    color: white;
 }
 
 .body-1-prospectives-text {
-    border-left: 1px solid white; 
+    border-left: 1px solid white;
     color: white;
     padding-left: 1%;
-    width: 80%; 
+    width: 80%;
     margin: auto;
     font-size: 24px;
     margin-left: 10%;
@@ -81,15 +81,15 @@
     font-weight: normal;
     font-size: 24px;
     line-height: 30px;
-    padding: 20px; 
+    padding: 20px;
 
-    background-color: #D9E9FF; 
+    background-color: #D9E9FF;
     /* margin: auto; */
 }
 
 .blue-padding {
-    margin: 15px; 
-    padding: 25px; 
+    margin: 15px;
+    padding: 25px;
 }
 
 .capital-heading {
@@ -98,7 +98,7 @@
     line-height: 60px;
     font-style: normal;
     width: 80%;
-    padding: 50px; 
+    padding: 50px;
     font-family: Roboto, sans-serif;
     font-style: italic;
 }
@@ -136,7 +136,7 @@ span.left-float {
 }
 
 .button-1:hover {
-    text-decoration: underline; 
+    text-decoration: underline;
     cursor: pointer;
 }
 
@@ -152,9 +152,9 @@ span.left-float {
     font-size: 64px;
     line-height: 98px;
     text-align: left;
-    
+
     color: navy;
-    
+
     width: 80%;
     margin: auto;
 
@@ -254,9 +254,9 @@ span.left-float {
     font-weight: normal;
     font-size: 24px;
     line-height: 30px;
-    padding: 20px; 
+    padding: 20px;
 
-    background-color: #D9E9FF; 
+    background-color: #D9E9FF;
 
     margin: auto;
     margin-top: 5%;
