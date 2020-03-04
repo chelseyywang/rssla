@@ -3,14 +3,7 @@ import './Programs.css';
 import LAMP_logo from './dependent/lamp_logo.svg';
 import mentor_pic from './dependent/mentor.png';
 import book_pic from './dependent/book.png';
-import SPIEL_pic from './dependent/SPIEL.jpg'
 import ucla from './dependent/ucla.png';
-
-import committee_pic from './dependent/committee_pic.png';
-
-import meals_on_wheels from './dependent/meals_on_wheels_LA.jpg';
-import heal_the_bay from './dependent/healthebay.png';
-
 
 import ProgramCarousel from './ProgramCarousel';
 
@@ -48,43 +41,35 @@ class Programs extends Component {
                     <div class='subheading'>
                         <span>
                             INTERNAL PROGRAMS
-                            </span>
+                        </span>
                     </div>
 
                     <div id="body-container">
-
-
                         <div id="title">
                             Los Angeles Mentorship Program (L.A.M.P.)
-                    </div>
-                    {/** 
-                        <img id="left" src={LAMP_logo} width="350" height="350" />
-                        */}
-                        <div id="text-LAMP">
-                            <p1>
+                        </div>        
+
+                        <img id="right" src={LAMP_logo} width="250" height="250" />                       
+                        
+                        <div id="text">
+                            <p>
                                 The Los Angeles Mentorship Program (LAMP) provides UCLA students the opportunity to give back to the local
                                 community through tutoring at University High School. This program aims to provide resources to underserved
                                 youth - giving them access to SAT and ACT preparation along with workshops regarding financial literacy,
                                 college applications, and more.
-                                {/** 
-                            <br></br>
-                                <br></br>
-                                Students interested in tutoring and volunteering through LAMP are not required
-                                nor expected to have previous experience, although strong interpersonal and communication skills are required
-                                to succeed in the role.
-                            
-                            */}
-                            </p1>
+                            </p>
                         </div>
-
-
                     </div>
+
                     <div id="body-container">
                         <div id="title">
                             Students Presenting, Innovating, Entertaining, Learning (S.P.I.E.L.)
-                    </div>
-                        <div id="text-SPIEL">
-                            <p1>
+                        </div>
+
+                        <img id="right" src={ucla} width="350" height="350" />
+                        
+                        <div id="text">
+                            <p>
                                 SPIEL stands for Students Presenting, Innovating, Entertaining and Learning. Inspired by TED Talks,
                                 this campus-wide speaker event is put on by students, for students. The aim of SPIEL is to give students from
                                 all backgrounds the chance to talk about something that is not only important to the presenters themselves,
@@ -92,68 +77,70 @@ class Programs extends Component {
                                 <br></br>
                                 <br></br>
                                 In the past, SPIEL presenters have addressed a variety of topics, ranging from mental health to ground-breaking student research.
-                        </p1>
+                            </p>
                         </div>
                     </div>
+
                     <div id="body-container">
                         <div id="title">
                             Service
-                    </div>
-
-                        <img className="service_img_big" src={ucla} width="350" height="350" />
-                        <div id="text-SERVICE">
-                            <div class='programcarousel1'>
+                        </div>
+                        <div class='program-carousel1'>
                                 <ProgramCarousel />
                             </div>
-                            <p1>
+
+                        <div id="text">
+                            <p>
                                 Through partnerships with Heal the Bay and Meals on Wheels, the Regents Scholar Society hosts periodic service events throughout the year.
                                 Stay tuned on our Facebook group to get involved!
-                            </p1>
+                            </p>
                         </div>
-                        {/* <img className="service_img_small" src={heal_the_bay} width="350" height="350" />
-                        <img className="service_img_small" src={meals_on_wheels} width="350" height="350" />
-                        */}
-
                     </div>
+                    
                     <div class='subheading'>
-                        <span>EXTERNAL PROGRAMS</span>
+                        <span>EXTERNAL PROGRAMS
+                        </span>
                     </div>
+
                     <div id="body-container">
                         <div id="title">
                             Mentorship Information
-                    </div>
-                        <img id="left" src={mentor_pic} width="350" height="350" />
-                        <div id="text-MENTORSHIP">
-                            <p1>
+                        </div>
+
+                        <img id="right" src={mentor_pic} width="350" height="350" />
+                        
+                        <div id="text">
+                            <p>
                                 Our peer mentors are upperclassmen who have recently been in the shoes of our new RSSers and want to give back by helping them learn the ropes of UCLA!
-                        <br></br><br></br>
+                                <br></br><br></br>
                                 Our alumni mentors are graduated RSSers who have broken through their industries and can provide professional advice to aspiring professionals.
-                        <br></br><br></br>
+                                <br></br><br></br>
                                 Finally, our faculty mentorship program pairs RSSers and faculty members to cultivate relationships and help members learn more about their passions and fields of study.
-                        </p1>
+                            </p>
                         </div>
                     </div>
 
                     <div id="body-container">
                         <div id="title">
                             Education Resource
-                    </div>
-                        <img id="right" src={book_pic} width="350" height="350" />
+                        </div>
 
-                        <div id="text-SPIEL">
-                            <p1>
+                        <img id="right" src={book_pic} width="426" height="240" />
+
+                        <div id="text">
+                            <p>
                                 We want our Regents Scholars to grow, to succeed, and to thrive. Thus, we offer a variety of different resources for our members to take advantage of! Whether it be resume reviews,
                                 information sessions, workshops, or course planning events - we aim to ensure that each RSS member has the resources they need to succeed.
-                        </p1>
+                            </p>
                         </div>
 
                     </div>
 
 
-                    <div id="container-committee">
+                    <div id="body-container">
                         <div id="title">
                             Committees
-                    </div>
+                        </div>
                         <div id="text-committee">
                             <p1>
                                 Through our committees, you can engage with the society, develop leadership skills, and utilize all of our resources! Applications open every fall quarter.
@@ -172,21 +159,15 @@ class Programs extends Component {
                                     <li>Website</li>
                                     <li>Los Angeles Mentorship Program (LAMP)</li>
                                 </ul>
-                                {/* <img className="committee_pic" src={ committee_pic} width="350" height="350" /> */}
-
                             </div>
-
                         </div>
-
                     </div>
 
                 </div>
 
-
             </React.Fragment>
         );
     }
-
 }
 
 export default Programs;
