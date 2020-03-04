@@ -2,11 +2,8 @@ import React from 'react';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import './About.css';
 import Footer from '../components/Footer/Footer';
-import conference_2019 from './pictures/2019_Conference.jpg'; // 2019 Inter-UC Conference 
-import kayaking_2018 from './pictures/2018_Kayak_Fall_3.jpg'; // 2018 Kayaking
 import blueprint from './pictures/blueprint logo.png';
 import nextstep from './pictures/nextstep-footer.png';
-import background_1 from './pictures/2018_InterUC_2.HEIC';
 import kaplan from './pictures/kaplan.png';
 import Carousel from 'react-bootstrap/Carousel';
 import bootstrap from 'bootstrap/dist/css/bootstrap.css';

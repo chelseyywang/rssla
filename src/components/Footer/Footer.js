@@ -14,8 +14,7 @@ function Footer() {
             <div class='footer'>
                 <div class='footer-1'>
                     <img src={RSS_logo} alt='RSS logo' class='logo_footer' />
-                    <em> ©2020 by the Regents Scholar Society, UCLA. <br />
-                        All rights reserved.
+                    <em> ©2020 by the Regents Scholar Society, UCLA. <br /> All rights reserved.
                     </em>
                 </div>
                 <div class='footer-2'>
