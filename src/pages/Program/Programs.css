@@ -1,23 +1,12 @@
-#space
-{
-  margin: 20px;
-}
-
 #program-list
 {
-  overflow: hidden;
   width: 80%;
   margin: auto;
 }
 
-#wrap-1
-{
-  flex: 2;
-}
-
 #body-container
 {
-  padding: 3%;
+  padding: 10%;
   border-style: ridge;
   border-width: 1px;
   
@@ -25,19 +14,6 @@
   height: auto;
   background: #D9E9FF;
   margin-bottom: 5%;
-} 
-
-#container-committee
-{
-  padding: 3%;
-  width: 80%;
-  border-style: ridge;
-  border-width: 1px;
-  
-  width: auto;
-  height: auto;
-  margin: 5%;
-  background: #D9E9FF;
 }
 
 #committee
@@ -45,14 +21,13 @@
   border-style: double;
   border-radius: 0.5px;
   height: auto;
-  padding: 5px;
+  padding: 3em;
   margin: auto;
 }
 
 #committee-text
 {
   line-height: 2em;
-  padding: 5 px;
   height: auto;
 }
 
@@ -63,10 +38,9 @@ ul.committee {
   font-weight: normal;
   color: #000000;
 
-  padding-left: 60px;
-  padding-top: 10px;
+  padding: 2rem;
 
-  font-size: 2.4vw;
+  font-size: 2rem;
   line-height: 1.8em;
 }
 
@@ -90,10 +64,6 @@ ul.committee {
 
 #title
 {
-  margin-top: 5%;
-  margin-left: 5%;
-
-
     /* Heading 1 */
 
     font-family: Roboto, sans-serif;
@@ -107,73 +77,22 @@ ul.committee {
     color: #3C507B;
 }
 
-#left {
-  float: left;
-  margin-left: 2%;
-  margin-top: 7%;
-  clear:both;
-}
-
 #right {
-  border-right: 50px solid #D9E9FF;
   float: right;
   clear: both;
+  margin: 3em;
 }
 
 
-#text-LAMP
+#text
 {
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: lighter;
   font-size: 24px;
   line-height: 30px;
-  width: 70%;
   margin-top: 5%;
-  height: auto;
   color: #000000;
-}
-
-#text-SPIEL
-{
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: lighter;
-  font-size: 24px;
-  line-height: 30px;
-
-  margin-top: 5%;
-  width: auto%;
-  height: auto;
-
-  color: #000000;
-}
-
-#text-SERVICE
-{
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: lighter;
-  font-size: 1.8vw;
-  line-height: 30px;
-  width: 70%;
-  height: auto;  
-  color: #000000;
-}
-
-#text-MENTORSHIP
-{
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 1.2em;
-
-  margin-left: 500px;
-  width: 530px; 
-  height: 350px;
-
-  color: #000000; 
 }
 
 .what-do-we-do {
@@ -221,53 +140,27 @@ ul.committee {
   margin-bottom: 5%;
 }
 
-.service_img_big 
-{
-  float: left;
-  margin-left: 5%;
-  width: 50%;
-  height: auto;
-
-  clear:both;
-}
-
-.service_img_small
-{
-  display: none;
-}
-
 .committee_pic
 {
   display: none;
 }
 
+.program-carousel1{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+@media only screen and (max-width: 1080px)
+{
+  #right
+  {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 1420px)  {
-    /* .committee_pic
-  {
-    display: block;
-    float: top;
-    margin-left: 10px;
-    width: 200vw;
-  } */
-
-
-  .service_img_small
-  {
-    display: inline-block;
-    border-radius: 5px;
-    width: 40%;
-    height: auto;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 30px;
-  }
-  .service_img_big
-  {
-    display: none
-  }
-  
     .what-do-we-do-title {
-      font-size: 43px;
+      font-size: 8vw;
     }
 
     .what-do-we-do-body {
@@ -276,146 +169,6 @@ ul.committee {
       font-size: 16px;
       line-height: 20px;
     }
-
-    #left {
-      display: none;
-    }
-
-    #right {
-      display: none;
-    }
-
-  #title
-  {
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-
-
-      /* Heading 1 */
-
-      font-family: Roboto, sans-serif;
-      font-style: italic;
-      font-weight: bold;
-      font-size: 3.5vw;
-      line-height: 125%;
-      text-align: left;
-
-      /* dark blue */
-
-      color: #3C507B;
-  }
-
-  #text-LAMP
-  {
-    font-size: 1.8vw;
-    line-height: 30px;
-
-    width: 90%;
-    height: 390px;
-
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-
-  } 
-
-#text-SERVICE
-{
-  font-size: 1.8vw;
-  line-height: 30px;
-
-  width: 85%;
-  height: auto;
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-#text-MENTORSHIP
-{
-  font-size: 24px;
-  line-height: 30px;
-
-  width: 90%;
-  height: 390px;
-
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-}
-
-
-@media only screen and (max-width: 820px)
-{
-  #body-container
-  {
-    height: 80vw;
-  }
-
-  #title
-  {
-    font-size: 4vw;
-    line-height: 1.5em;
-
-  }
-  #text-LAMP
-  {
-
-    font-size: 3vw;
-    line-height: 1.2em;
-
-    width: 90%;
-    height: 390px;
-
-    margin-left: 5%;
-    margin-right: 5%;
-
-  } 
-  #text-SPIEL
-  {
-
-    font-size: 3vw;
-    line-height: 1.2em;
-
-    width: 90%;
-    height: 390px;
-
-    margin-left: 5%;
-    margin-right: 5%;
-
-  }
-  
-  #text-SERVICE
-  {
-
-    font-size: 3.3vw;
-    line-height: 1.2em;
-
-    width: 90%;
-    height: auto;
-    margin-left: 5%;
-    margin-right: 5%;
-
-  }
-  
-  #text-MENTORSHIP
-  {
-
-    font-size: 3.3vw;
-    line-height: 1.2em;
-
-    width: 90%;
-    height: 390px;
-
-    margin-left: 5%;
-    margin-right: 5%;
-
-  }
-
-  
 }
 
 @media only screen and (max-width: 825px) {
@@ -433,13 +186,4 @@ ul.committee {
   .what-do-we-do-body {
     padding-left: 50px;
   }
-}
-
-body {
-  min-width: 470px;
-}
-
-.programcarousel1{
-  width: 100%;
-  margin: auto;
 }

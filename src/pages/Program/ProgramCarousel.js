@@ -14,11 +14,11 @@ class ProgramCarousel extends Component {
             <Carousel>
                 <div>
                     <img src = {pic1}/>
-                    <p className="legend">beach cleanup, 2017</p>
+                    <p className="legend">2017 Beach Cleanup</p>
                 </div>
                 <div>
                     <img src = {pic2} />
-                    <p className="legend">venice beach cleanup, 2018</p>
+                    <p className="legend">2018 Beach Cleanup</p>
                 </div>
 
             </Carousel>

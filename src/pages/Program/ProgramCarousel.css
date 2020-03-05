@@ -4,3 +4,11 @@
     text-align: center;
     padding: 5vw;
 }
+
+.legend-vert{
+    glyph-orientation-horizontal: 90deg;
+    font-family: Roboto, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5vw;
+}
