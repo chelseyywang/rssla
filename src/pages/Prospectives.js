@@ -1,7 +1,7 @@
 import React from 'react';
 import './Prospectives.css';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
-import Header from '../components/Header/Header';
+import Header from '../components/NewHeader/NewHeader';
 
 function Prospectives() {
     return (
@@ -16,42 +16,58 @@ function Prospectives() {
                 </p>
             </div>
 
+
             <div class="freshman-prospectives">
+            <div class="body-3-prospectives">
+                    <div class="capital-heading">
+                        INTRODUCING RSS
+                    </div>
+
+                    <div class="blue-padding dates-itinerary">
+                        <div class = "video-container"><iframe width = "640" height = "auto" src="https://www.youtube.com/embed/BFsoW4t7Agc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                       
+                        </div>
+                        </div>
+                        </div>
                 <div class="freshman-transfer-header">
                     <span>FOR FRESHMAN PROSPECTIVES</span>
                 </div>
 
-                <p class='body-2-prospectives'>
-                    We'd like to invite you to our <strong>overnight stay program</strong>!
-                    <br /><br />
-                    OSP, or the overnight stay program, is hosted by the Regents Scholar Society during the first two weekends of April. At our program, you'll be able to:
+                <p class='body-2-prospectives'><br/>
+                <li>Questions about how to choose classes, clubs, or even a major?</li>
+                <li>Unsure if UCLA is the right choice for you?</li> 
+                To answer those questions, and more — attend our OSP! <br/><br/>
+                
+                Historically, OSP has stood for our Overnight Stay Program, which took place over the course of 3-day, 2-night programs at UCLA. In light of current events, we will not be offering this program in person this year - however, we will be offering <strong>OSP: Online Socially-distanced Program!</strong> Through this, you’ll be able to:
+
                 </p>
 
                 <div class='body-3-prospectives'>
                     <div class="blue-padding">
                         <ul>
-                            <li>Meet new people &mdash; some who will become close friends!</li>
-                            <li>Explore Westwood &mdash; UCLA's adjacent college town.</li>
-                            <li>Have a taste of what it's like to be a bruin &mdash; literally! You'll be eating at UCLA's #1 ranked dining halls.</li>
-                            <li>Shadow classes and see what college lectures are like.</li>
-                            <li>Talk to current students and see what we do!</li>
-                            <li>Truly get a feel for what UCLA is like &mdash; and whether this school is the right fit for you.</li>
+                            <li>Attend online panels and Q&A sessions with current Regents Scholars! These panels will be about:</li>
+                            <ul>
+                            <li>UCLA in general: academics, extracurriculars, etc.</li>
+                            <li>What it means to be a Regents Scholar at UCLA: three-faceted mentorship (peer, faculty, alumni), professional opportunities, </li>
+                            <li>Specific sessions, such as: Pre-Medicine at UCLA, Engineering at UCLA, Pre-Law at UCLA, etc. - click here let us know what topics you’re interested in!</li>
+                            </ul>
+                            <li>[TBA] Join this Facebook group to meet both prospective c/o 2024 Regents Scholars, and current Regents Scholars!</li>
+                            <li>Reach out to any of the program coordinators listed below, or to your student advisors, who will be reaching out to you soon via email and/or mail. </li>
                         </ul>
                     </div>
                 </div>
 
                 <p class='body-2-prospectives'>
-                    <br /><br />
-                    Interested? We hope you are! Learn more about what you'll do, who you'll meet, and how to sign up for each session below. For more information, reach out to the Rebecca Zhu at outreach@rssla.org.
+                Below, you can find details about coordinators for each of the four OSP sessions that were originally scheduled to take place. They’ve included their contact information below - don’t hesitate to reach out to them if you have any questions, concerns, or just want to chat! For more information or general questions, please reach out to outreach director Rebecca Zhu at outreach@rssla.org.
+
                 </p>
 
                 <div class="body-3-prospectives">
                     <div class="capital-heading">
-                        DATES AND ITINERARIES
+                        SESSIONS AND COORDS
                     </div>
 
                     <div class="blue-padding dates-itinerary">
-                        <div><span class="left-float">OSP Session 1: April XX, 2020</span>
+                    <div><span class="left-float">OSP Session 1</span>
                             <span class="nobreak right-float">
                                 <button class="button-1">Itinerary</button>
                                 <button class="button-1">Sign&nbsp;Up!</button>
@@ -60,7 +76,7 @@ function Prospectives() {
                             <br />
                         </div>
                         <br />
-                        <div><span class="left-float">OSP Session 2: April XX, 2020</span>
+                        <div><span class="left-float">OSP Session 2</span>
                             <span class="nobreak right-float">
                                 <button class="button-1">Itinerary</button>
                                 <button class="button-1">Sign&nbsp;Up!</button>
@@ -93,7 +109,6 @@ function Prospectives() {
                 </div>
             </div>
 
-            <br /><br /><br /><br /><br /><br />
 
             <div class="transfer-prospectives">
                 <div class="freshman-transfer-header">
@@ -101,11 +116,12 @@ function Prospectives() {
                 </div>
 
                 <p class='body-2-prospectives'>
-                    We'd love to invite you to our Transfer Welcome Reception on Saturday, May 11th! During this event, you'll have the opportunity to:
+                    <br/>We'd like to invite you to our Transfer Welcome Reception (TWR) and Transfer Overnight Program (TOP)!
                 </p>
 
                 <div class='body-3-prospectives'>
                     <div class="blue-padding">
+                        TWR INFORMATION
                         <ul>
                             <li>Listen to transfer Regents Scholar panelists discuss their experiences!</li>
                             <li>Get your questions on transfer life answered!</li>

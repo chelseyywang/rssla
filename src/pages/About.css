@@ -34,19 +34,19 @@
   .body-1-title{
     width: 70%;
     height: auto;
-    margin-left: 6%;
-    font-size: 10vw; 
+    margin-left: 0%;
+    font-size: 6vw; 
     font-family: 'Roboto';
     font-weight: bolder;
     color: white; 
   }
 
   .body-1-title-caption{
-    margin-left: 11%; 
+    margin-left: 5%; 
     font-family: 'Playfair Display', serif;
     font-weight: lighter; 
     font-style: italic;
-    font-size: 2.5vw; 
+    font-size: 2vw; 
     color: white; 
     margin-top: -5%;
   }
@@ -54,11 +54,10 @@
   .body-1-text{
     padding: 10px; 
     font-family: 'Nunito Sans', serif;    
-    font-size: 2vw; 
+    font-size: 1.5vw; 
     color: white; 
     width: 80%; 
-    margin-left: auto; 
-    margin-right: auto; 
+    margin-left: 4%;
     margin-bottom: 5%;
   }
 
@@ -97,13 +96,13 @@
   }
 
   .body-2{
-    margin-top: 100px; 
-    margin-bottom: 100px; 
+    margin-top: 75px; 
+    margin-bottom: 75px; 
   }
 
   .body-2-title{
     font-family: 'Roboto';
-    font-size: 5vw; 
+    font-size: 4vw; 
     text-align: left; 
     color:navy; 
     font-style: italic;
@@ -111,7 +110,7 @@
   }
 
   .body-2-text-1{
-    font-size: 1.8vw; 
+    font-size: 1vw; 
     font-family: 'Nunito Sans', serif;    
   }
 
@@ -132,8 +131,8 @@
   }
 
   .body-3{
-    margin-top: 100px; 
-    margin-bottom: 100px; 
+    margin-top: 75px; 
+    margin-bottom: 75px; 
   }
 
   .body-3-wrap{
@@ -143,7 +142,7 @@
 
   .body-3-title{
     font-family: 'Roboto';
-    font-size: 5vw; 
+    font-size: 4vw; 
     text-align: left; 
     color: navy; 
     font-style: italic;
@@ -155,7 +154,7 @@
   .pillar{
     text-align: center; 
     background-color: #D9E9FF; 
-    margin-bottom: 2%;
+    margin-bottom: 1%;
   }
 
   .pillar-text-1{
@@ -163,16 +162,16 @@
     font-style: italic;
     font-weight: bold;
     color: #3C507B; 
-    font-size: 3vw;
-    padding-left: 5%;
-    padding-top: 5%; 
+    font-size: 2vw;
+    padding-left: 3%;
+    padding-top: 3%; 
     text-align: left; 
   }
 
   .pillar-text-2{
     font-family: 'Nunito Sans', sans-serif;
     color: black; 
-    font-size: 1.5vw; 
+    font-size: 1vw; 
     text-align: left; 
     padding: 3%;
     padding-left: 5%;
@@ -183,12 +182,12 @@
   }
 
   .sponsors-title{ 
-    font-size: 4.5vw; 
+    font-size: 4vw; 
     color: navy;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-style: italic;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
   }
 
   .img-sponsor{
