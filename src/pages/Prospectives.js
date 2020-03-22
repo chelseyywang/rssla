@@ -2,53 +2,62 @@ import React from 'react';
 import './Prospectives.css';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import Header from '../components/NewHeader/NewHeader';
+import Sessions from './Sessions.js';
+
 
 function Prospectives() {
     return (
         <div className="prospectives">
             <div class='body-1-prospectives'>
                 <div class='body-1-title'>
-                    <strong>Congratulations!</strong>
+                    <strong>PROSPECTIVES</strong>
                 </div>
                 <br /><br />
                 <p class='body-1-prospectives-text'>
-                    First and foremost, we'd like to congratulate you on the scholarship! The Regents Scholarship is one of the most prestigious awards given to UCLA undergraduates, and you should feel very proud of yourself for your accomplishments thus far!
+                    From our annual OSP to our transfer events, the Society does lots to guide prospective Regents scholars 
+                    in their college decision process. Check out our programs below!
                 </p>
             </div>
 
 
-            <div class="freshman-prospectives">
-            <div class="body-3-prospectives">
+                <div class="body-3-prospectives">
                     <div class="capital-heading">
                         INTRODUCING RSS
                     </div>
 
                     <div class="blue-padding dates-itinerary">
-                        <div class = "video-container"><iframe width = "640" height = "auto" src="https://www.youtube.com/embed/BFsoW4t7Agc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                       
+                        <div class="video-container"><iframe width="640" height="auto" src="https://www.youtube.com/embed/BFsoW4t7Agc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-                        </div>
-                        </div>
+
+                    <div class='video-caption'>
+                        First and foremost, we at the Regents Scholar Society would like to congratulate you on receiving the scholarship. Watch the video above to get a gist of what we do,
+                        and scroll down for events tailored for both freshman and transfer prospective students. Hope to see you soon!
+                    </div>
+                    </div>
+                </div>
+                <div class="freshman-prospectives">
+
                 <div class="freshman-transfer-header">
                     <span>FOR FRESHMAN PROSPECTIVES</span>
                 </div>
 
-                <p class='body-2-prospectives'><br/>
-                <li>Questions about how to choose classes, clubs, or even a major?</li>
-                <li>Unsure if UCLA is the right choice for you?</li> 
-                To answer those questions, and more — attend our OSP! <br/><br/>
-                
-                Historically, OSP has stood for our Overnight Stay Program, which took place over the course of 3-day, 2-night programs at UCLA. In light of current events, we will not be offering this program in person this year - however, we will be offering <strong>OSP: Online Socially-distanced Program!</strong> Through this, you’ll be able to:
+                <p class='body-2-prospectives'><br />
+                    Questions about how to choose classes, clubs, or even a major?
+                Unsure if UCLA is the right choice for you?<br />
+                    To answer those questions, and more — attend our OSP! <br /><br />
+
+                    Historically, OSP has stood for our Overnight Stay Program, which took place over the course of 3-day, 2-night programs at UCLA. In light of current events, we will not be offering this program in person this year - however, we will be offering <strong>OSP: Online Socially-distanced Program!</strong> Through this, you’ll be able to:
 
                 </p>
 
                 <div class='body-3-prospectives'>
                     <div class="blue-padding">
                         <ul>
-                            <li>Attend online panels and Q&A sessions with current Regents Scholars! These panels will be about:</li>
+                            <li><a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSe2v5Wk6InDTGgmhn_Y0wVHUBljZKZrH0mtOqQwL4jy1l4_Uw/viewform?usp=send_form">Attend online panels and Q&A sessions</a> with current Regents Scholars! These panels will be about:</li>
                             <ul>
-                            <li>UCLA in general: academics, extracurriculars, etc.</li>
-                            <li>What it means to be a Regents Scholar at UCLA: three-faceted mentorship (peer, faculty, alumni), professional opportunities, </li>
-                            <li>Specific sessions, such as: Pre-Medicine at UCLA, Engineering at UCLA, Pre-Law at UCLA, etc. - click here let us know what topics you’re interested in!</li>
+                                <li>UCLA in general: academics, extracurriculars, etc.</li>
+                                <li>What it means to be a Regents Scholar at UCLA: three-faceted mentorship (peer, faculty, alumni), professional opportunities, </li>
+                                <li>Specific sessions, such as: Pre-Medicine at UCLA, Engineering at UCLA, Pre-Law at UCLA, etc. - <a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSe2v5Wk6InDTGgmhn_Y0wVHUBljZKZrH0mtOqQwL4jy1l4_Uw/viewform?usp=send_form" >click here</a> let us know what topics you’re interested in!</li>
                             </ul>
                             <li>[TBA] Join this Facebook group to meet both prospective c/o 2024 Regents Scholars, and current Regents Scholars!</li>
                             <li>Reach out to any of the program coordinators listed below, or to your student advisors, who will be reaching out to you soon via email and/or mail. </li>
@@ -57,26 +66,35 @@ function Prospectives() {
                 </div>
 
                 <p class='body-2-prospectives'>
-                Below, you can find details about coordinators for each of the four OSP sessions that were originally scheduled to take place. They’ve included their contact information below - don’t hesitate to reach out to them if you have any questions, concerns, or just want to chat! For more information or general questions, please reach out to outreach director Rebecca Zhu at outreach@rssla.org.
+                    Below, you can find details about coordinators for each of the four OSP sessions that were originally scheduled to take place. They’ve included their contact information below - don’t hesitate to reach out to them if you have any questions, concerns, or just want to chat! For more information or general questions, please reach out to outreach director Rebecca Zhu at outreach@rssla.org.
 
                 </p>
 
                 <div class="body-3-prospectives">
                     <div class="capital-heading">
-                        SESSIONS AND COORDS
+                        COORDINATORS
+                    </div>
+                    <div id = 'coordinators'>
+                        < Sessions />
                     </div>
 
+                    {/*
                     <div class="blue-padding dates-itinerary">
-                    <div><span class="left-float">OSP Session 1</span>
-                            <span class="nobreak right-float">
+                        <button type='button' class="collapsible" href='javascript:collapsible()'>OSP 1 COORDINATORS</button>
+                        <div class='content'>
+
+                            <collapsible />
+                            {/* <span class="nobreak right-float">
                                 <button class="button-1">Itinerary</button>
                                 <button class="button-1">Sign&nbsp;Up!</button>
                                 <button class="button-1">Waiver</button>
                             </span>
+                            
+    
                             <br />
                         </div>
                         <br />
-                        <div><span class="left-float">OSP Session 2</span>
+                        <div><span class="left-float">OSP Session 2</span><br />
                             <span class="nobreak right-float">
                                 <button class="button-1">Itinerary</button>
                                 <button class="button-1">Sign&nbsp;Up!</button>
@@ -105,6 +123,7 @@ function Prospectives() {
                         </div>
                         <br /><br /><br />
                     </div>
+                    */}
 
                 </div>
             </div>
@@ -116,7 +135,7 @@ function Prospectives() {
                 </div>
 
                 <p class='body-2-prospectives'>
-                    <br/>We'd like to invite you to our Transfer Welcome Reception (TWR) and Transfer Overnight Program (TOP)!
+                    <br />We'd like to invite you to our Transfer Welcome Reception (TWR) and Transfer Overnight Program (TOP)!
                 </p>
 
                 <div class='body-3-prospectives'>
@@ -157,9 +176,9 @@ function Prospectives() {
             <div class="the-scholarship">
                 <p class="class-enrollment">
                     The Regents Scholarship is awarded to up to 100 incoming freshmen and transfer students. Alongside membership in the
-                    Regents Scholar Society, all Regents Scholars receive: 
+                    Regents Scholar Society, all Regents Scholars receive:
                     <br />
-                        <li><strong>A $2,000 honorarium,</strong> awarded quarterly for four years (or two years for transfers).</li>
+                    <li><strong>A $2,000 honorarium,</strong> awarded quarterly for four years (or two years for transfers).</li>
                     <li>University scholarships or grants to cover the student's financial need.</li>
                     <br />
                     Alongside the scholarship's financial benefits, scholarship recipients are guaranteed: <br />
@@ -173,7 +192,7 @@ function Prospectives() {
                     As a Regents Scholar, you will have the ability to enroll in 13 units before most other student on campus (besides other priority passers) starting your first winter quarter. Most UCLA pre-requisite courses are 4-unit courses, and many general education courses are 5-units. With 13 priority units, you are able to get 3 of your classes before other students. 
                     <br/><br/>With priority enrollment, many of our scholars are able to complete their degrees in 3 years if they choose to. Along with that, due to their access to core curriculum classes, many of our scholars are able to complete double majors, triple majors, one major with two minors, etc. 
                     */}
-                    <br /><br /><br /><br />
+                    <br />
                 </p>
 
                 {/* 
@@ -227,7 +246,6 @@ function Prospectives() {
                 <p class="faq-a">Yes, all Regents Scholars must maintain a cumulative 3.0 GPA at UCLA to continue to receive full benefits of the scholarship.</p>
                 <br />
             </div>
-
         </div>
     );
 }

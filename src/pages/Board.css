@@ -1,3 +1,6 @@
+* {
+  max-width: 100%;
+}
 .col {
   display: flex;
   flex-direction: column;
@@ -17,9 +20,9 @@
 
   /* Titles */
   font-family: Roboto, sans-serif;
-  font-style: normal;
+  font-style: italic;
   font-weight: bold;
-  font-size: 64px;
+  font-size: 6vw;
   line-height: 98px;
 
   /* identical to box height */
@@ -38,16 +41,23 @@
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 1.5vw;
   align-items: center;
 
   /* background */
-  color: #D9E9FF;
+  color: #F0F8FF;
 
   /* Adding the left line */
+  /*
   border-left: 1px solid #D9E9FF;
   padding-left: 3%;
+  */
+}
+
+.wrapper{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .grid-container {
@@ -71,7 +81,6 @@
 .grid-item {
   display: flex;
   flex-direction: column;
-  background-color: #D9E9FF;
   width: 300px;
   height: 583px;
   margin: 16px;
@@ -84,6 +93,7 @@
   margin-bottom: 30px;
   height: 288px;
   width: 273px;
+  border-radius: 50%;
   /* left: 4.32%;
   right: 4.32%; */
   /* top: 3.31%;

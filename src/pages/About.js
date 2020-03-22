@@ -20,14 +20,17 @@ function About() {
                     We're smart, we're dedicated, and we're passionate. More than that, we believe what we do speaks for itself.
                 </div>
                 <div class='button-wrap'>
-                    <button class='body-1-button'>Learn More</button>
+                    <button class='body-1-button' onclick="window.location.href = '/programs';"> Learn More</button>
                 </div>
             </div>
 
-            <div class='pagewrapper'>
+            <div class='page-wrapper'>
                 <div class='body-2'>
                     <div class='body-2-title-wrap'>
                         <div class='body-2-title'><strong>INTRODUCING RSS</strong></div>
+                    </div>
+                    <div class='aboutcarousel'>
+                        <AboutCarousel />
                     </div>
                     <div class='body-2-text-2-wrap' align='right'>
                         <div class='body-2-text-2'>
@@ -37,10 +40,6 @@ function About() {
                             We strive to support our members and the local community through our various internal and external programs,
                             including service events, leadership opportunities, and the Los Angeles Mentorship Program.</div>
                     </div>
-                </div>
-
-                <div class='aboutcarousel'>
-                    <AboutCarousel />
                 </div>
 
                 <div class='body-3'>

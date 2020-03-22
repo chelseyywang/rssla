@@ -13,15 +13,15 @@ function Footer() {
             {/* <!-- FOOTER --> */}
             <div class='footer'>
                 <div class='footer-1'>
-                    <img src={RSS_logo} alt='RSS logo' class='logo_footer' />
+                    {/* <img src={RSS_logo} alt='RSS logo' class='logo_footer' /> */}
                     <em> ©2020 by the Regents Scholar Society, UCLA. <br /> All rights reserved.
                     </em>
                 </div>
                 <div class='footer-2'>
-                    <a href='linkedin.com'> <img src={linkedin} alt='RSS LinkedIn' class='socialmedia' /> </a>
+                    <a href='https://www.linkedin.com/company/rssla/about/'> <img src={linkedin} alt='RSS LinkedIn' class='socialmedia' /> </a>
                 </div>
                 <div class='footer-3'>
-                    <a href='facebook.com'> <img src={facebook} alt='RSS Facebook' class='socialmedia' /></a>
+                    <a href='https://www.facebook.com/uclarss/'> <img src={facebook} alt='RSS Facebook' class='socialmedia' /></a>
                 </div>
                 <div class='credits'>
                     <b>Code by:</b> <em>James Yoon, Chelsey Wang, Tiffany Trinh, Rishi Sankar, Ray Huang, Solomon Lo,
