@@ -13,7 +13,7 @@ function Footer() {
             {/* <!-- FOOTER --> */}
             <div class='footer'>
                 <div class='footer-1'>
-                    <img src={RSS_logo} alt='RSS logo' class='logo_footer' />
+                    {/* <img src={RSS_logo} alt='RSS logo' class='logo_footer' /> */}
                     <em> ©2020 by the Regents Scholar Society, UCLA. <br /> All rights reserved.
                     </em>
                 </div>
