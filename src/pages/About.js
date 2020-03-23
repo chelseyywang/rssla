@@ -11,7 +11,8 @@ import AboutCarousel from './AboutCarousel'
 
 function About() {
     return (
-        <div>
+        <header>
+            <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
             <div class='body-1-wrapper'>
                 <div class='body-1-title'>RSSLA</div>
                 <div class='body-1-title-caption'>Regents Scholar Society at UCLA<br /><br /></div>
@@ -78,7 +79,7 @@ function About() {
                     </div>
                 </div>
             </div >
-        </div>
+        </header>
     );
 }
 
