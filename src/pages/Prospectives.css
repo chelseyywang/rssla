@@ -93,6 +93,7 @@
     padding: 2%;
     font-family: Roboto, sans-serif;
     font-style: italic;
+    text-decoration: underline;
     text-align: center;
 }
 
@@ -144,6 +145,7 @@ span.left-float {
     font-weight: bold;
     font-size: 5vw;
     text-align: center;
+    text-decoration: underline;
 
     color: navy;
 

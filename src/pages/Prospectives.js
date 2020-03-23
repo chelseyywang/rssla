@@ -41,7 +41,7 @@ function Prospectives() {
                     <span>FOR FRESHMAN PROSPECTIVES</span>
                 </div>
 
-                <p class='body-2-prospectives'><br />
+                <p class='body-2-prospectives'><br /><br/>
                     Questions about how to choose classes, clubs, or even a major?
                 Unsure if UCLA is the right choice for you?<br />
                     To answer those questions, and more — attend our OSP! <br /><br />
