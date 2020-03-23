@@ -1,0 +1,46 @@
+
+.Collapsible {
+    background-color: #EBEEFF;
+    color: #3F004B;
+    cursor: pointer;
+    font-size: 2vw;
+    font-family: Nunito Sans;
+    font-style: italic;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    width: 100%;
+    border: 0.5pt solid #000000 
+}
+
+.active, .Collapsible:hover {
+    background-color: #4B0032;
+    color:  #EBEEFF;
+}
+
+.description {
+    font-family: Nunito Sans;
+    padding: 5%;
+    font-style: normal;
+    font-size: 1.5vw;
+    text-align: left;
+    background-color: #FDFAFF;
+    color: #000C4B;
+}
+.committee-image {
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+}
+
+.image-caption {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 1.2vw;
+    font-style: italic;
+    text-align: center;
+    background-color: #FDFAFF;
+    color: #4E0081;
+    padding-bottom: 5%;
+}

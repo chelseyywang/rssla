@@ -32,28 +32,28 @@ function Board() {
 
             <p className="title"><span className="highlight">PRESIDENT<br/></span></p>
             <img src={Krista} />
-            <p className="name">KRISTA YANG</p>
+            <p className="name">Krista Yang</p>
             <p className="major">Psychobiology, 2020</p>
           </div>
           <div className="grid-item">
             <p className="title"><span className="highlight">INTERNAL VICE PRESIDENT</span></p>
 
             <img src={Kajal} />
-            <p className="name">KAJAL MARAN</p>
+            <p className="name">Kajal Maran</p>
             <p className="major">Bioengineering, 2020</p>
           </div>
           <div className="grid-item">
             <p className="title"><span className="highlight">EXTERNAL VICE PRESIDENT</span></p>
 
             <img src={Alex} />
-            <p className="name">ALEX SOOHOO</p>
+            <p className="name">Alex Soohoo</p>
             <p className="major">Chemical Engineering, 2020</p>
           </div>
           <div className="grid-item">
             <p className="title"><span className="highlight">SECRETARY</span></p>
 
             <img src={Nilla} />
-            <p className="name">NILLA SIVAKUMAR</p>
+            <p className="name">Nilla Sivakumar</p>
             <p className="major">Neuroscience, 2020</p>
           </div>
         </div>
@@ -62,28 +62,28 @@ function Board() {
             <p className="title"><span className="highlight">ACTIVITIES DIRECTOR</span></p>
 
             <img src={Chelsey} />
-            <p className="name">CHELSEY WANG</p>
+            <p className="name">Chelsey Wang</p>
             <p className="major">Computer Science, 2022</p>
           </div>
           <div className="grid-item">
             <p className="title"><span className="highlight">ACTIVITIES DIRECTOR</span></p>
 
             <img src={Pranit} />
-            <p className="name">PRANIT KUMARAN</p>
+            <p className="name">Pranit Kumaran</p>
             <p className="major">Neuroscience, 2022</p>
           </div>
           <div className="grid-item">
             <p className="title"><span className="highlight">ALUMNI RELATIONS &amp; <br/>INTER-UC DIRECTOR</span></p>
 
             <img src={Bryan} />
-            <p className="name">BRYAN HU</p>
+            <p className="name">Bryan Hu</p>
             <p className="major">Mathematics of Computation, 2020</p>
           </div>
           <div className="grid-item">
             <p className="title"><span className="highlight">COMMUNICATIONS DIRECTOR</span></p>
 
             <img src={James} />
-            <p className="name">JAMES YOON</p>
+            <p className="name">James Yoon</p>
             <p className="major">Chemistry, 2022</p>
           </div>
         </div>
@@ -91,27 +91,27 @@ function Board() {
           <div className="grid-item">
             <p className="title"><span className="highlight">COMMUNITY SERVICE DIRECTOR</span></p>
             <img src={Andrew} />
-            <p className="name">ANDREW KANG</p>
+            <p className="name">Andrew Kang</p>
             <p className="major">Biochemistry, 2022</p>
           </div>
           <div className="grid-item">
             <p className="title"><span className="highlight">CORPORATE RELATIONS DIRECTOR</span></p>
 
             <img src={Aditya} />
-            <p className="name">ADITYA GURU</p>
+            <p className="name">Aditya Guru</p>
             <p className="major">Microbiology, Immunology, and Molecular Genetics, 2022</p>
           </div>
           <div className="grid-item">
             <p className="title"><span className="highlight">EDUCATIONAL PROGRAMS DIRECTOR</span></p>
             <img src={Donya} />
-            <p className="name">DONYA MAZDEYASNAN</p>
+            <p className="name">Donya Mazdeyasnan</p>
             <p className="major">Psychobiology, 2022</p>
           </div>
           <div className="grid-item">
             <p className="title"><span className="highlight">L.A.M.P. DIRECTOR</span></p>
 
             <img src={Maggie} />
-            <p className="name">MAGGIE BUI</p>
+            <p className="name">Maggie Bui</p>
             <p className="major">Molecular, Cell, and Developmental Biology, 2020</p>
           </div>
         </div>
@@ -120,7 +120,7 @@ function Board() {
             <p className="title"><span className="highlight">OUTREACH DIRECTOR</span></p>
 
             <img src={Becca} />
-            <p className="name">REBECCA ZHU</p>
+            <p className="name">Rebecca Zhu</p>
             <p className="major">Business Economics and Linguistics & CS, 2020</p>
 
           </div>
@@ -128,7 +128,7 @@ function Board() {
             <p className="title"><span className="highlight">PUBLICITY DIRECTOR</span></p>
 
             <img src={Nikki} />
-            <p className="name">NIKKI WOO</p>
+            <p className="name">Nikki Woo</p>
             <p className="major">Computer Science, 2021</p>
 
           </div>
@@ -136,14 +136,14 @@ function Board() {
             <p className="title"><span className="highlight">TRANSFER AFFAIRS <br/>DIRECTOR</span></p>
 
             <img src={Raymond} />
-            <p className="name">RAYMOND DEANGELO</p>
+            <p className="name">Raymond DeAngelo</p>
             <p className="major">English, 2020</p>
 
           </div>
           <div className="grid-item">
             <p className="title"><span className="highlight">TREASURER</span></p>
             <img src={Jason} />
-            <p className="name">JASON LIU</p>
+            <p className="name">Jason Liu</p>
             <p className="major">Neuroscience, 2020</p>
           </div>
         </div>

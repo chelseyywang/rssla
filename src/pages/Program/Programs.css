@@ -24,8 +24,9 @@
 
 #committee
 {
-  border-style: double;
+  /*border-style: double;
   border-radius: 0.5px;
+  */
   height: auto;
   padding: 1em;
   margin: auto;

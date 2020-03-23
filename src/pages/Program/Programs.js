@@ -4,7 +4,7 @@ import LAMP_logo from './dependent/lamp_logo.svg';
 import mentor_pic from './dependent/mentor.png';
 import book_pic from './dependent/book.png';
 import ucla from './dependent/ucla.png';
-
+import Committee from './Committee.js';
 import ProgramCarousel from './ProgramCarousel';
 
 class Programs extends Component {
@@ -47,10 +47,10 @@ class Programs extends Component {
                     <div id="body-container">
                         <div id="title">
                             Los Angeles Mentorship Program (L.A.M.P.)
-                        </div>        
+                        </div>
 
-                        <img id="right" src={LAMP_logo} width="250" height="250" />                       
-                        
+                        <img id="right" src={LAMP_logo} width="250" height="250" />
+
                         <div id="text-1">
                             <p>
                                 The Los Angeles Mentorship Program (LAMP) provides UCLA students the opportunity to give back to the local
@@ -67,7 +67,7 @@ class Programs extends Component {
                         </div>
 
                         <img id="right" src={ucla} width="350" height="350" />
-                        
+
                         <div id="text-1">
                             <p>
                                 SPIEL stands for Students Presenting, Innovating, Entertaining and Learning. Inspired by TED Talks,
@@ -85,18 +85,19 @@ class Programs extends Component {
                         <div id="title">
                             Service
                         </div>
-                        <div class='program-carousel1'>
-                                <ProgramCarousel />
-                            </div>
-
                         <div id="text-1">
                             <p>
                                 Through partnerships with Heal the Bay and Meals on Wheels, the Regents Scholar Society hosts periodic service events throughout the year.
                                 Stay tuned on our Facebook group to get involved!
                             </p>
                         </div>
+                        <div class='program-carousel1'>
+                            <ProgramCarousel />
+                        </div>
+
+                        
                     </div>
-                    
+
                     <div class='subheading'>
                         <span>EXTERNAL PROGRAMS
                         </span>
@@ -104,11 +105,11 @@ class Programs extends Component {
 
                     <div id="body-container">
                         <div id="title">
-                            Mentorship Information
+                            Mentorship and Families
                         </div>
 
                         <img id="right" src={mentor_pic} width="350" height="350" />
-                        
+
                         <div id="text-1">
                             <p>
                                 Our peer mentors are upperclassmen who have recently been in the shoes of our new RSSers and want to give back by helping them learn the ropes of UCLA!
@@ -148,23 +149,14 @@ class Programs extends Component {
                         </div>
 
                         <div id="committee">
-                            <div id="title">
+                            <div id="title" >
                                 2019-2020 Committees
                             </div>
-                            <div id="committee-text">
-                                <ul class="committee">
-                                    <li>A.C.E. (Activity, Community Service, Educational Programs)</li>
-                                    <li>Special Events</li>
-                                    <li>Funding</li>
-                                    <li>Website</li>
-                                    <li>Los Angeles Mentorship Program (LAMP)</li>
-                                </ul>
-                            </div>
+                            <Committee />
                         </div>
+
                     </div>
-
                 </div>
-
             </React.Fragment>
         );
     }

@@ -15,34 +15,34 @@ function Prospectives() {
                 </div>
                 <br /><br />
                 <p class='body-1-prospectives-text'>
-                    From our annual OSP to our transfer events, the Society does lots to guide prospective Regents scholars 
+                    From our annual OSP to our transfer events, the Society does lots to guide prospective Regents scholars
                     in their college decision process. Check out our programs below!
                 </p>
             </div>
 
 
-                <div class="body-3-prospectives">
-                    <div class="capital-heading">
-                        INTRODUCING RSS
+            <div class="body-3-prospectives">
+                <div class="capital-heading">
+                    INTRODUCING RSS
                     </div>
 
-                    <div class="blue-padding dates-itinerary">
-                        <div class="video-container"><iframe width="640" height="auto" src="https://www.youtube.com/embed/BFsoW4t7Agc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
+                <div class="blue-padding dates-itinerary">
+                    <div class="video-container"><iframe width="640" height="auto" src="https://www.youtube.com/embed/BFsoW4t7Agc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
 
                     <div class='video-caption'>
                         First and foremost, we at the Regents Scholar Society would like to congratulate you on receiving the scholarship. Watch the video above to get a gist of what we do,
                         and scroll down for events tailored for both freshman and transfer prospective students. Hope to see you soon!
                     </div>
-                    </div>
                 </div>
-                <div class="freshman-prospectives">
+            </div>
+            <div class="freshman-prospectives">
 
                 <div class="freshman-transfer-header">
                     <span>FOR FRESHMAN PROSPECTIVES</span>
                 </div>
 
-                <p class='body-2-prospectives'><br /><br/>
+                <p class='body-2-prospectives'><br /><br />
                     Questions about how to choose classes, clubs, or even a major?
                 Unsure if UCLA is the right choice for you?<br />
                     To answer those questions, and more — attend our OSP! <br /><br />
@@ -75,7 +75,7 @@ function Prospectives() {
                     <div class="capital-heading">
                         COORDINATORS
                     </div>
-                    <div id = 'coordinators'>
+                    <div id='coordinators'>
                         < Sessions />
                     </div>
 
@@ -136,9 +136,10 @@ function Prospectives() {
                 </div>
 
                 <p class='body-2-prospectives'>
-                    <br />We'd like to invite you to our Transfer Welcome Reception (TWR) and Transfer Overnight Program (TOP)!
-                </p>
+                    <br />Stay tuned for updates regarding TWR (Transfer Welcome Reception)!                     For more information, reach out to the Transfer Affairs Director at transfers@rssla.org.
 
+                </p>
+                {/*
                 <div class='body-3-prospectives'>
                     <div class="blue-padding">
                         TWR INFORMATION
@@ -150,9 +151,9 @@ function Prospectives() {
                         </ul>
                     </div>
                 </div>
+                
 
                 <p class='body-2-prospectives'>
-                    <br /><br />
                     For more information, reach out to the Transfer Affairs Director at transfers@rssla.org.
                 </p>
 
@@ -167,7 +168,9 @@ function Prospectives() {
                         </span>
                         <br /><br />
                     </div>
+
                 </div>
+                            */}
             </div>
 
 
