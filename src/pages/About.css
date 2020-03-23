@@ -54,7 +54,8 @@
   .body-1-text{
     padding: 10px; 
     font-family: 'Nunito Sans', serif;    
-    font-size: 1.5vw; 
+    /* font-size: 1.5vw;  */
+    font-size: 14px; 
     color: white; 
     width: 80%; 
     margin-left: 3.5%;
@@ -70,7 +71,8 @@
     background-color: #3C4856; 
     border-radius: 10px; 
     border: 1px solid #000000;
-    font-size: 1.5vw; 
+    /* font-size: 1.5vw;  */
+    font-size: 14px; 
     padding-left: 3%; 
     padding-right: 3%; 
     padding-top: 1%; 
@@ -119,7 +121,8 @@
   }
 
   .body-2-text-2{
-    font-size: 1.5vw; 
+    /* font-size: 1.5vw;  */
+    font-size: 14px;
     font-family: 'Nunito Sans', serif;   
     text-align: left; 
     width: 100%; 
@@ -162,7 +165,31 @@
     margin-bottom: 1%;
   }
 
+  @media screen and (max-device-width: 600px) and (min-device-width: 400px){
+    .pillar-text-1{
+      font-family: 'Roboto', sans-serif;
+      font-style: italic;
+      font-weight: bold;
+      color: #F9F1FF;
+      font-size: 100px;
+      padding-left: 3%;
+      padding-top: 3%; 
+      text-align: center; 
+    }
+  }
+
   .pillar-text-1{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #F9F1FF;
+    font-size: 20px;
+    padding-left: 3%;
+    padding-top: 3%; 
+    text-align: center; 
+  }
+
+  /* .pillar-text-1{
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: bold;
@@ -171,16 +198,25 @@
     padding-left: 3%;
     padding-top: 3%; 
     text-align: center; 
-  }
+  } */
+
 
   .pillar-text-2{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #EFF8FF; 
+    font-size: 14px; 
+    text-align: center; 
+    padding: 3%;
+    padding-left: 5%;
+  }
+  /* .pillar-text-2{
     font-family: 'Nunito Sans', sans-serif;
     color: #EFF8FF; 
     font-size: 1vw; 
     text-align: center; 
     padding: 3%;
     padding-left: 5%;
-  }
+  } */
 
   .sponsors {
     margin-bottom: 10%;
