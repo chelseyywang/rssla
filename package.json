@@ -13,6 +13,7 @@
     "axios": "^0.19.2",
     "boostrap": "^2.0.0",
     "bootstrap": "^4.4.1",
+    "carousel": "0.0.3",
     "create-react-app": "^3.4.0",
     "create-react-class": "^15.6.3",
     "react": "^16.12.0",
