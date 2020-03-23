@@ -178,6 +178,7 @@ span.left-float {
 .the-scholarship {
     width: 80%;
     margin: auto;
+    margin-bottom: 7%;
 }
 
 .class-enrollment {
@@ -239,69 +240,6 @@ span.left-float {
     color: #000000;
 }
 
-.faq {
-    font-family: Source Sans Pro, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 30px;
-    padding: 20px;
-
-    background-color: #D9E9FF;
-
-    margin: auto;
-    margin-top: 5%;
-    margin-bottom: 10%;
-
-    width: 80%;
-}
-
-.faq-header {
-    font-family: Roboto, sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 4vw;
-    line-height: 75px;
-    text-align: left;
-
-    color: navy;
-
-    padding-right: 3%;
-    padding-top: 3%;
-}
-
-.faq-q {
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 2vw;
-    line-height: 37px;
-
-    color: #3C507B;
-
-    border-bottom: 1px #3C507B solid;
-    padding: 2%;
-    padding-top: 3%;
-
-    margin-left: 7%;
-    margin-right: 7%;
-}
-
-.faq-a {
-    font-family: Nunito Sans, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.5vw;
-    line-height: 2vw;
-
-    color: #000000;
-
-    padding: 1.5%;
-    padding-left: 10%;
-
-    margin-left: 7%;
-    margin-right: 7%;
-}
 .video-container {
     overflow: hidden;
     position: relative;
