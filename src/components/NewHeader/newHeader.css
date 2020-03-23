@@ -1,5 +1,5 @@
 .Header {
-    /* position: fixed; */
+    position: relative;
     top: 0; /* Stick it to the top */
     height: 70px;
     width: 90;
@@ -10,6 +10,7 @@
     /* Cosmetics */
     background-color: black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
   }
   .row-wrap{
     display: flex; 
