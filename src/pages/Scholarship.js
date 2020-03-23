@@ -6,7 +6,7 @@ export class Scholarship extends React.Component {
     render() {
         return (
             <div id="scholarship">
-                <div class="capital-heading2"><span>THE SCHOLARSHIP</span></div>
+                <div class="capital-heading2"><span>ABOUT THE SCHOLARSHIP</span></div>
                 <Collapsible trigger="Benefits of the Scholarship">
                     <div id="benefits">
                         <p>
