@@ -28,7 +28,7 @@ class Programs extends Component {
             <React.Fragment>
 
                 <div class='what-do-we-do'>
-                    <div class='what-do-we-do-title'>PROGRAMS</div>
+                    <div class='what-do-we-do-title'>OUR PROGRAMS</div>
                     <div class='what-do-we-do-body'>
                         The Regents Scholar Society hosts multiple events through the year.
                         Some connect our members to resources, while others strive to engage the broader UCLA and local community.
@@ -51,7 +51,7 @@ class Programs extends Component {
 
                         <img id="right" src={LAMP_logo} width="250" height="250" />                       
                         
-                        <div id="text">
+                        <div id="text-1">
                             <p>
                                 The Los Angeles Mentorship Program (LAMP) provides UCLA students the opportunity to give back to the local
                                 community through tutoring at University High School. This program aims to provide resources to underserved
@@ -68,7 +68,7 @@ class Programs extends Component {
 
                         <img id="right" src={ucla} width="350" height="350" />
                         
-                        <div id="text">
+                        <div id="text-1">
                             <p>
                                 SPIEL stands for Students Presenting, Innovating, Entertaining and Learning. Inspired by TED Talks,
                                 this campus-wide speaker event is put on by students, for students. The aim of SPIEL is to give students from
@@ -89,7 +89,7 @@ class Programs extends Component {
                                 <ProgramCarousel />
                             </div>
 
-                        <div id="text">
+                        <div id="text-1">
                             <p>
                                 Through partnerships with Heal the Bay and Meals on Wheels, the Regents Scholar Society hosts periodic service events throughout the year.
                                 Stay tuned on our Facebook group to get involved!
@@ -109,7 +109,7 @@ class Programs extends Component {
 
                         <img id="right" src={mentor_pic} width="350" height="350" />
                         
-                        <div id="text">
+                        <div id="text-1">
                             <p>
                                 Our peer mentors are upperclassmen who have recently been in the shoes of our new RSSers and want to give back by helping them learn the ropes of UCLA!
                                 <br></br><br></br>
@@ -122,12 +122,12 @@ class Programs extends Component {
 
                     <div id="body-container">
                         <div id="title">
-                            Education Resource
+                            Educational Resources
                         </div>
 
                         <img id="right" src={book_pic} width="426" height="240" />
 
-                        <div id="text">
+                        <div id="text-1">
                             <p>
                                 We want our Regents Scholars to grow, to succeed, and to thrive. Thus, we offer a variety of different resources for our members to take advantage of! Whether it be resume reviews,
                                 information sessions, workshops, or course planning events - we aim to ensure that each RSS member has the resources they need to succeed.
@@ -153,7 +153,7 @@ class Programs extends Component {
                             </div>
                             <div id="committee-text">
                                 <ul class="committee">
-                                    <li>A.C.E. (Activity, Community Service, Education Program</li>
+                                    <li>A.C.E. (Activity, Community Service, Educational Programs)</li>
                                     <li>Special Events</li>
                                     <li>Funding</li>
                                     <li>Website</li>

@@ -1,3 +1,9 @@
+* {
+  max-width: 100%;
+}
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Playfair+Display|Alegreya|Source+Sans+Pro|Roboto'); 
+
+
 #program-list
 {
   width: 80%;
@@ -6,13 +12,13 @@
 
 #body-container
 {
-  padding: 10%;
   border-style: ridge;
   border-width: 1px;
+  padding: 5%;
   
   width: auto;
   height: auto;
-  background: #D9E9FF;
+  background: #F0F8FF;
   margin-bottom: 5%;
 }
 
@@ -21,13 +27,13 @@
   border-style: double;
   border-radius: 0.5px;
   height: auto;
-  padding: 3em;
+  padding: 1em;
   margin: auto;
 }
 
 #committee-text
 {
-  line-height: 2em;
+  font-size: 1.5vw;
   height: auto;
 }
 
@@ -39,9 +45,7 @@ ul.committee {
   color: #000000;
 
   padding: 2rem;
-
-  font-size: 2rem;
-  line-height: 1.8em;
+  font-size: 1.5vw;
 }
 
 #text-committee
@@ -49,8 +53,7 @@ ul.committee {
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: lighter;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 1.5vw;
 
   margin-left: 5%;
   margin-top: 3%;
@@ -69,7 +72,7 @@ ul.committee {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 3vw;
     line-height: 55px;
 
     /* dark blue */
@@ -84,13 +87,12 @@ ul.committee {
 }
 
 
-#text
+#text-1
 {
-  font-family: Nunito Sans;
+  font-family: Nunito Sans, sans-serif;
   font-style: normal;
   font-weight: lighter;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 1.5vw;
   margin-top: 5%;
   color: #000000;
 }
@@ -106,27 +108,25 @@ ul.committee {
 
 .what-do-we-do-title {
   font-family: Roboto, sans-serif;
-  font-style: normal;
+  font-style: italic;
   font-weight: bold;
-  font-size: 10vw;
+  font-size: 5vw;
   color: #F2FAFF;
-  line-height: 98px;
   padding-left: 105px;
+  padding-bottom: 2%;
   margin-top: -30%;
 }
 
 .what-do-we-do-body {
   padding-right: 100px;
-  height: 60px;
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 1.5vw;
   line-height: 30px;
   color: #D9E9FF;
   padding-left: 193px;
-  padding-top: 60px;
-  padding-bottom: 70px;
+  padding-bottom: 10%;
 }
 
 .subheading {
@@ -135,9 +135,10 @@ ul.committee {
   font-weight: bolder;
   font-size: 5vw;
   color: navy;
-  text-align: left;
-  margin-top: 5%;
+  text-align: center;
+  margin-top: 10%;
   margin-bottom: 5%;
+  text-decoration: underline;
 }
 
 .committee_pic

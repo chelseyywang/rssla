@@ -3,24 +3,25 @@
     flex-direction: row;
     background-color: black; 
     color: white; 
-    font-family: 'Source Sans Pro', serif;
+    font-family: 'Nunito Sans', serif;
     padding: 1%; 
     vertical-align: center;
 }
 .footer-1{
     font-size: 1vw;
-    padding: 1%
+    padding: 1%;
+    width: 80%;
 }
 .footer-2{
     width: 10%;
     margin-top: 1%;
 }
 .footer-3{
-    width: 9%;
-    margin-top: 0.9%;
+    width: 10%;
+    margin-top: 1%;
 }
 .socialmedia{
-    width: 25%;
+    width: 50%;
     height: auto;
 }
 .credits{

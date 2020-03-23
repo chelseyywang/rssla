@@ -34,7 +34,7 @@
   .body-1-title{
     width: 70%;
     height: auto;
-    margin-left: 0%;
+    margin-left: 4%;
     font-size: 6vw; 
     font-family: 'Roboto';
     font-weight: bolder;
@@ -43,12 +43,12 @@
 
   .body-1-title-caption{
     margin-left: 5%; 
-    font-family: 'Playfair Display', serif;
+    margin-top: -1%;
+    font-family: 'Nunito Sans', serif;
     font-weight: lighter; 
     font-style: italic;
     font-size: 2vw; 
     color: white; 
-    margin-top: -5%;
   }
 
   .body-1-text{
@@ -57,7 +57,7 @@
     font-size: 1.5vw; 
     color: white; 
     width: 80%; 
-    margin-left: 4%;
+    margin-left: 3.5%;
     margin-bottom: 5%;
   }
 
@@ -70,7 +70,7 @@
     background-color: #3C4856; 
     border-radius: 10px; 
     border: 1px solid #000000;
-    font-size: 16px; 
+    font-size: 1.5vw; 
     padding-left: 3%; 
     padding-right: 3%; 
     padding-top: 1%; 
@@ -89,33 +89,37 @@
     cursor: pointer;
   }
 
-  .pagewrapper {
+  .page-wrapper {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
   }
 
-  .body-2{
-    margin-top: 75px; 
-    margin-bottom: 75px; 
+  .body-2-wrapper{
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
 
   .body-2-title{
     font-family: 'Roboto';
     font-size: 4vw; 
-    text-align: left; 
+    text-align: center; 
     color:navy; 
     font-style: italic;
+    margin-top: 5%;
+    margin-bottom: -4%;
+    text-decoration: underline;
     
   }
 
   .body-2-text-1{
     font-size: 1vw; 
-    font-family: 'Nunito Sans', serif;    
+    font-family: 'Nunito Sans', serif;  
+    margin-top: -1%;  
   }
 
   .body-2-text-2{
-    font-size: 1.8vw; 
+    font-size: 1.5vw; 
     font-family: 'Nunito Sans', serif;   
     text-align: left; 
     width: 100%; 
@@ -125,30 +129,31 @@
   }
 
   .aboutcarousel {
+    margin-top: 5%;
     width: auto;
-    height: auto;
-
+    height: 50%;
+    background-color: #000000;
   }
 
   .body-3{
-    margin-top: 75px; 
-    margin-bottom: 75px; 
+    margin-bottom: 10%; 
   }
 
   .body-3-wrap{
     display: flex; 
-    flex-direction: column; 
+    flex-direction: column;
   }
 
   .body-3-title{
     font-family: 'Roboto';
     font-size: 4vw; 
-    text-align: left; 
+    text-align: center; 
     color: navy; 
     font-style: italic;
     font-weight: bold;
     margin-bottom: 5%;
-    margin-top: 5%;
+    margin-top: 10%;
+    text-decoration: underline;
   }
 
   .pillar{
@@ -187,7 +192,9 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-style: italic;
+    text-align: center;
     margin-bottom: 3%;
+    text-decoration: underline;
   }
 
   .img-sponsor{
