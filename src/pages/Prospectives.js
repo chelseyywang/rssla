@@ -4,7 +4,8 @@ import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import Header from '../components/NewHeader/NewHeader';
 import Sessions from './Sessions.js';
 import Scholarship from './Scholarship';
-
+import OSP_panels from './pictures/OSP Panels.png';
+import TWR_coords from './TWR_coords.js'
 
 function Prospectives() {
     return (
@@ -54,13 +55,13 @@ function Prospectives() {
                 <div class='body-3-prospectives'>
                     <div class="blue-padding">
                         <ul>
-                            <li><a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSe2v5Wk6InDTGgmhn_Y0wVHUBljZKZrH0mtOqQwL4jy1l4_Uw/viewform?usp=send_form">Attend online panels and Q&A sessions</a> with current Regents Scholars! These panels will be about:</li>
-                            <ul>
-                                <li>UCLA in general: academics, extracurriculars, etc.</li>
-                                <li>What it means to be a Regents Scholar at UCLA: three-faceted mentorship (peer, faculty, alumni), professional opportunities, </li>
-                                <li>Specific sessions, such as: Pre-Medicine at UCLA, Engineering at UCLA, Pre-Law at UCLA, etc. - <a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSe2v5Wk6InDTGgmhn_Y0wVHUBljZKZrH0mtOqQwL4jy1l4_Uw/viewform?usp=send_form" >click here</a> let us know what topics you’re interested in!</li>
-                            </ul>
-                            <li>[TBA] Join this Facebook group to meet both prospective c/o 2024 Regents Scholars, and current Regents Scholars!</li>
+                            <li><a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfhfsHue8E7YOgSMbR4axMG5XmJs96A7SNxUfWHJ6cLXxY5mA/viewform?usp=send_form">SIGN UP HERE</a> to attend online panels and Q&A sessions with current Regents Scholars and faculty members!</li>
+                        </ul>
+                        <div class= 'OSP-panel-picture'>
+                            <img src={OSP_panels} alt='OSP panels' />
+                        </div>
+                        <ul>
+                            <li>Join <a href="https://www.facebook.com/groups/1484769195012533/">this Facebook group</a> to meet both prospective c/o 2024 Regents Scholars, and current Regents Scholars!</li>
                             <li>Reach out to any of the program coordinators listed below, or to your student advisors, who will be reaching out to you soon via email and/or mail. </li>
                         </ul>
                     </div>
@@ -139,6 +140,14 @@ function Prospectives() {
                     <br />Stay tuned for updates regarding TWR (Transfer Welcome Reception)!                     For more information, reach out to the Transfer Affairs Director at transfers@rssla.org.
 
                 </p>
+
+                <div class="body-3-prospectives">
+                    <div class="capital-heading">
+                        YOUR TWR COORDINATORS
+                    </div>
+                    <div id='coordinators'>
+                        < TWR_coords />
+                    </div>
                 {/*
                 <div class='body-3-prospectives'>
                     <div class="blue-padding">
@@ -170,12 +179,13 @@ function Prospectives() {
                     </div>
 
                 </div>
-                            */}
+                */}
             </div>
+                </div>
 
 
             <div class="the-scholarship">
-                <Scholarship/>
+                <Scholarship />
             </div>
         </div>
     );
