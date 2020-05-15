@@ -150,7 +150,7 @@ function TransferProspectives(props) {
             <p class='body-2-prospectives'>
                 <br />Welcome to the Regents Scholar Society’s Transfer Welcome Week! <br /><br />
                 If you have questions regarding RSS, academics, research, extracurriculars, and student life at UCLA, then please attend our events during Transfer Welcome Week!
-                Originally, the society planned to welcome all RSS prospective transfer students with an in-person welcome reception and a 2-day, 1 night program at UCLA.
+                Originally, the society planned to welcome all RSS prospective transfer students with an in-person welcome reception and a 2-day, 1-night program at UCLA.
                 However, due to the unprecedented pandemic, the society is providing a virtual Transfer Welcome Week to welcome all of its prospective transfer students.
                 The Transfer Welcome Week will be held from <strong>Monday, May 18th to Friday, May 22nd</strong>, and all events will be held through Zoom. We hope to see you there! <br /><br /></p>
 
@@ -187,10 +187,10 @@ function TransferProspectives(props) {
                 </ul>
             </div>
 
-            <p class='body-2-prospectives'>If you are a prospective UCLA transfer student who was accepted to UCLA with the Regents Scholarship, please join <a href="https://www.facebook.com/groups/661412984441205/">this Facebook Group</a> to meet other prospective transfers as well as current RSS students! <br /><br />
-                Below, you can find details about our Transfer Affairs coordinators that have worked hard to put on our Transfer Welcome Week. For more information or general questions, please reach out to the Transfer Affairs Director, Raymond DeAngelo, at transfers@rssla.org.
-
-
+            <p class='body-2-prospectives'>If you are a prospective UCLA transfer student who was accepted to UCLA with the Regents Scholarship, please 
+                join <a href="https://www.facebook.com/groups/661412984441205/">this Facebook Group</a> to meet other prospective transfers as well as current RSS students!<br/><br/>
+                Below, you can find details about our Transfer Affairs coordinators that have worked hard to put on our Transfer Welcome Week.
+                For more information or general questions, please reach out to the Transfer Affairs Director, Raymond DeAngelo, at <a href="mailto:transfers@rssla.org">transfers@rssla.org</a>.
             </p>
 
             <div class="body-3-prospectives">

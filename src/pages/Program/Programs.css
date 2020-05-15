@@ -103,6 +103,7 @@ ul.committee {
     ), url('../pictures/2019_bonfire.jpg.jpg');
     padding-top: 38.2%;
     background-size: cover;
+    background-position: 50% 38%;
 }
 
 #text-service {
