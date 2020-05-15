@@ -144,9 +144,14 @@ span.left-float {
     cursor: pointer;
 }
 
-.transfer-prospectives {
+.content_wrapper {
     width: 80%;
     margin: auto;
+}
+
+.content_wrapper.scholarship {
+    margin-top: -50px;
+    margin-bottom: 80px;
 }
 
 .capital-heading2 {
