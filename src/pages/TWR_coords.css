@@ -1,0 +1,51 @@
+
+
+.Collapsible {
+    background-color: #EBEEFF;
+    color: #3F004B;
+    cursor: pointer;
+    font-size: 2vw;
+    font-family: Nunito Sans;
+    font-style: italic;
+    padding: 5%;
+    padding-bottom: 6%;
+    text-align: center;
+    width: 100%;
+    border: 0.5pt solid #000000 
+}
+
+.active, .Collapsible:hover {
+    background-color: #4B0032;
+    color:  #EBEEFF;
+}
+
+.TWR_coord {
+    width: 50%;
+    display: float;
+    float: left;
+    margin: auto;
+    padding-top: 3%;
+}
+
+#TWR_coord-background {
+    background-color: #4B0032;
+}
+
+#TWR_coord-picture {
+    width: 85%;
+    float: center;
+    padding: 0.5%;
+    background-color: #000000;
+}
+
+.TWR_coord-bio {
+    width: 100%;
+    display: float;
+    float: right;
+    font-family: Nunito Sans;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    font-size: 1.5vw;
+    padding: 2%;
+}
