@@ -1,11 +1,11 @@
 import React from 'react';
 import './Prospectives.css';
-import { Route, Switch, BrowserRouter } from 'react-router-dom';
-import Header from '../components/NewHeader/NewHeader';
+//import { Route, Switch, BrowserRouter } from 'react-router-dom';
+//import Header from '../components/NewHeader/NewHeader';
 import Sessions from './Sessions.js';
 import Scholarship from './Scholarship';
-import OSP_panels from './pictures/OSP Panels.png';
-import TWR_coords from './TWR_coords.js'
+//import OSP_panels from './pictures/OSP Panels.png';
+import TWRCoords from './TWRCoords.js'
 
 function Prospectives() {
     return (
@@ -28,7 +28,7 @@ function Prospectives() {
                         INTRODUCING RSS
                     </div>
                     <div class="video-container">
-                        <iframe width="640" height="auto" src="https://www.youtube.com/embed/BFsoW4t7Agc" frameborder="0" 
+                        <iframe title="Introducing RSS" width="640" height="auto" src="https://www.youtube.com/embed/BFsoW4t7Agc" frameborder="0" 
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div id="video-caption">
@@ -198,7 +198,7 @@ function TransferProspectives(props) {
                     YOUR TWR COORDINATORS
                 </div>
                 <div id='coordinators'>
-                    < TWR_coords />
+                    <TWRCoords/>
                 </div>
                 {/*
             <div class='body-3-prospectives'>

@@ -1,12 +1,12 @@
 import React from 'react';
-import { Route, Switch, BrowserRouter } from 'react-router-dom';
+//import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import './About.css';
-import Footer from '../components/Footer/Footer';
+//import Footer from '../components/Footer/Footer';
 import blueprint from './pictures/blueprint logo.png';
 import nextstep from './pictures/nextstep-footer.png';
 import kaplan from './pictures/kaplan.png';
-import Carousel from 'react-bootstrap/Carousel';
-import bootstrap from 'bootstrap/dist/css/bootstrap.css';
+//import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.css';
 import AboutCarousel from './AboutCarousel'
 
 function About() {

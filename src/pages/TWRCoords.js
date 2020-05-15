@@ -1,6 +1,6 @@
 import React from 'react';
 import Collapsible from 'react-collapsible';
-import './TWR_coords.css';
+import './TWRCoords.css';
 import baktash from './pictures/baktash.PNG';
 import hector from './pictures/hector.PNG';
 import justine from './pictures/justine.PNG';

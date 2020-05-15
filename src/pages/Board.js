@@ -1,6 +1,5 @@
 import React from 'react';
 import './Board.css';
-import Banner from "./pictures/board_bg1.png"
 import Aditya from './../eboard-pictures/aditya.jpg';
 import Alex from './../eboard-pictures/alex.jpg';
 import Andrew from './../eboard-pictures/andrew.jpg';
@@ -23,132 +22,45 @@ function Board() {
     <div>
       <div className="col">
         <p id="heading">EXECUTIVE BOARD</p>
-        <p id="description">16 students in 15 positions lead the Regents Scholar Society and all of its programs. From event planning to budget balancing, our team is responsible for making sure that RSS is running effectively.</p>
+        <p id="description">
+          16 students in 15 positions lead the Regents Scholar Society and all of its programs. 
+          From event planning to budget balancing, our team is responsible for making sure that RSS is running effectively.
+        </p>
       </div>
 
       <div className="grid-container">
         <div className="row">
-          <div className="grid-item">
-
-            <p className="title"><span className="highlight">PRESIDENT<br/></span></p>
-            <img src={Krista} />
-            <p className="name">Krista Yang</p>
-            <p className="major">Psychobiology, 2020</p>
-          </div>
-          <div className="grid-item">
-            <p className="title"><span className="highlight">INTERNAL VICE PRESIDENT</span></p>
-
-            <img src={Kajal} />
-            <p className="name">Kajal Maran</p>
-            <p className="major">Bioengineering, 2020</p>
-          </div>
-          <div className="grid-item">
-            <p className="title"><span className="highlight">EXTERNAL VICE PRESIDENT</span></p>
-
-            <img src={Alex} />
-            <p className="name">Alex Soohoo</p>
-            <p className="major">Chemical Engineering, 2020</p>
-          </div>
-          <div className="grid-item">
-            <p className="title"><span className="highlight">SECRETARY</span></p>
-
-            <img src={Nilla} />
-            <p className="name">Nilla Sivakumar</p>
-            <p className="major">Neuroscience, 2020</p>
-          </div>
-        </div>
-        <div className="row">
-          <div className="grid-item">
-            <p className="title"><span className="highlight">ACTIVITIES DIRECTOR</span></p>
-
-            <img src={Chelsey} />
-            <p className="name">Chelsey Wang</p>
-            <p className="major">Computer Science, 2022</p>
-          </div>
-          <div className="grid-item">
-            <p className="title"><span className="highlight">ACTIVITIES DIRECTOR</span></p>
-
-            <img src={Pranit} />
-            <p className="name">Pranit Kumaran</p>
-            <p className="major">Neuroscience, 2022</p>
-          </div>
-          <div className="grid-item">
-            <p className="title"><span className="highlight">ALUMNI RELATIONS &amp; <br/>INTER-UC DIRECTOR</span></p>
-
-            <img src={Bryan} />
-            <p className="name">Bryan Hu</p>
-            <p className="major">Mathematics of Computation, 2020</p>
-          </div>
-          <div className="grid-item">
-            <p className="title"><span className="highlight">COMMUNICATIONS DIRECTOR</span></p>
-
-            <img src={James} />
-            <p className="name">James Yoon</p>
-            <p className="major">Chemistry, 2022</p>
-          </div>
-        </div>
-        <div className="row">
-          <div className="grid-item">
-            <p className="title"><span className="highlight">COMMUNITY SERVICE DIRECTOR</span></p>
-            <img src={Andrew} />
-            <p className="name">Andrew Kang</p>
-            <p className="major">Biochemistry, 2022</p>
-          </div>
-          <div className="grid-item">
-            <p className="title"><span className="highlight">CORPORATE RELATIONS DIRECTOR</span></p>
-
-            <img src={Aditya} />
-            <p className="name">Aditya Guru</p>
-            <p className="major">Microbiology, Immunology, and Molecular Genetics, 2022</p>
-          </div>
-          <div className="grid-item">
-            <p className="title"><span className="highlight">EDUCATIONAL PROGRAMS DIRECTOR</span></p>
-            <img src={Donya} />
-            <p className="name">Donya Mazdeyasnan</p>
-            <p className="major">Psychobiology, 2022</p>
-          </div>
-          <div className="grid-item">
-            <p className="title"><span className="highlight">L.A.M.P. DIRECTOR</span></p>
-
-            <img src={Maggie} />
-            <p className="name">Maggie Bui</p>
-            <p className="major">Molecular, Cell, and Developmental Biology, 2020</p>
-          </div>
-        </div>
-        <div className="row">
-          <div className="grid-item">
-            <p className="title"><span className="highlight">OUTREACH DIRECTOR</span></p>
-
-            <img src={Becca} />
-            <p className="name">Rebecca Zhu</p>
-            <p className="major">Business Economics and Linguistics & CS, 2020</p>
-
-          </div>
-          <div className="grid-item">
-            <p className="title"><span className="highlight">PUBLICITY DIRECTOR</span></p>
-
-            <img src={Nikki} />
-            <p className="name">Nikki Woo</p>
-            <p className="major">Computer Science, 2021</p>
-
-          </div>
-          <div className="grid-item">
-            <p className="title"><span className="highlight">TRANSFER AFFAIRS <br/>DIRECTOR</span></p>
-
-            <img src={Raymond} />
-            <p className="name">Raymond DeAngelo</p>
-            <p className="major">English, 2020</p>
-
-          </div>
-          <div className="grid-item">
-            <p className="title"><span className="highlight">TREASURER</span></p>
-            <img src={Jason} />
-            <p className="name">Jason Liu</p>
-            <p className="major">Neuroscience, 2020</p>
-          </div>
+          <BoardProfile name="Krista Yang" major="Psychobiology, 2020" img={Krista} title="PRESIDENT"/>
+          <BoardProfile name="Kajal Maran" major="Bioengineering, 2020" img={Kajal} title="INTERNAL VICE PRESIDENT"/>
+          <BoardProfile name="Alex Soohoo" major="Chemical Engineering, 2020" img={Alex} title="EXTERNAL VICE PRESIDENT"/>
+          <BoardProfile name="Nilla Sivakumar" major="Neuroscience, 2020" img={Nilla} title="SECRETARY"/>
+          <BoardProfile name="Chelsey Wang" major="Computer Science, 2022" img={Chelsey} title="ACTIVITIES DIRECTOR"/>
+          <BoardProfile name="Pranit Kumaran" major="Neuroscience, 2022" img={Pranit} title="ACTIVITIES DIRECTOR"/>
+          <BoardProfile name="Bryan Hu" major="Mathematics of Computation, 2020" img={Bryan} title={["ALUMNI RELATIONS &", <br/>,"INTER-UC DIRECTOR"]}/>
+          <BoardProfile name="James Yoon" major="Chemistry, 2022" img={James} title="COMMUNICATIONS DIRECTOR"/>
+          <BoardProfile name="Andrew Kang" major="Biochemistry, 2022" img={Andrew} title="COMMUNITY SERVICE DIRECTOR"/>
+          <BoardProfile name="Aditya Guru" major="Microbiology, Immunology, and Molecular Genetics, 2022" img={Aditya} title="CORPORATE RELATIONS DIRECTOR"/>
+          <BoardProfile name="Donya Mazdeyasnan" major="Psychobiology, 2022" img={Donya} title="EDUCATIONAL PROGRAMS DIRECTOR"/>
+          <BoardProfile name="Maggie Bui" major="Molecular, Cell, and Developmental Biology, 2020" img={Maggie} title="L.A.M.P. DIRECTOR"/>
+          <BoardProfile name="Rebecca Zhu" major="Business Economics and Linguistics &amp; CS, 2020" img={Becca} title="OUTREACH DIRECTOR"/>
+          <BoardProfile name="Nikki Woo" major="Computer Science, 2021" img={Nikki} title="PUBLICITY DIRECTOR"/>
+          <BoardProfile name="Raymond DeAngelo" major="English, 2020" img={Raymond} title={["TRANSFER AFFAIRS",<br/>,"DIRECTOR"]}/>
+          <BoardProfile name="Jason Liu" major="Neuroscience, 2020" img={Jason} title="TREASURER"/>
         </div>
       </div>
     </div>
   ]);
 }
+
+function BoardProfile(props) {
+  return (
+    <div className="grid-item">
+      <p className="title"><span className="highlight">{props.title}</span></p>
+      <img src={props.img} alt={props.name} />
+      <p className="name">{props.name}</p>
+      <p className="major">{props.major}</p>
+    </div>
+  );
+}
+
 export default Board;

@@ -11,7 +11,7 @@ export class Committee extends React.Component {
             <div>
                 <Collapsible trigger="A.C.E.">
                     <div class="description">
-                        <img class='committee-image' src={family_christmas} />
+                        <img class='committee-image' src={family_christmas} alt="2019 All Family Holiday Extravaganza" />
                         <div class='image-caption'>The 2019 All Family Holiday Extravaganza, planned by A.C.E.'s very own Anusha!</div>
                         <p>
                             The A.C.E. committee helps plan fun and afforable social activities,
@@ -38,7 +38,7 @@ export class Committee extends React.Component {
                 <Collapsible trigger="Special Events">
                 <div class="description">
 
-                <img class='committee-image' src={alumni_mixer} />
+                <img class='committee-image' src={alumni_mixer} alt="2019 Alumni Mixer" />
                         <div class='image-caption'>The 2019 alumni mixer, planned by the 2018-2019 Special Events committee!</div>
                         <p>
                             The Special Events commitee plans the Society's large-scale events, such as

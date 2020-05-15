@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import './Programs.css';
 import LAMP_logo from './dependent/lamp_logo.svg';
 import mentor_pic from './dependent/mentor.png';
@@ -49,7 +49,7 @@ class Programs extends Component {
                             Los Angeles Mentorship Program (L.A.M.P.)
                         </div>
 
-                        <img id="right" src={LAMP_logo} width="90" height="90" />
+                        <img id="right" src={LAMP_logo} alt="LAMP Logo" width="90" height="90" />
 
                         <div id="text-1">
                             <p>
@@ -66,7 +66,7 @@ class Programs extends Component {
                             Students Presenting, Innovating, Entertaining, Learning (S.P.I.E.L.)
                         </div>
 
-                        <img id="right" src={ucla} width="90" height="90" />
+                        <img id="right" src={ucla} width="90" height="90" alt="UCLA Logo" />
 
                         <div id="text-1">
                             <p>
@@ -108,7 +108,7 @@ class Programs extends Component {
                             Mentorship and Families
                         </div>
 
-                        <img id="right" src={mentor_pic} width="150" height="150" />
+                        <img id="right" src={mentor_pic} width="150" height="150" alt="Mentorship Logo" />
 
                         <div id="text-1">
                             <p>
@@ -126,7 +126,7 @@ class Programs extends Component {
                             Educational Resources
                         </div>
 
-                        <img id="right" src={book_pic} width="142" height="80" />
+                        <img id="right" src={book_pic} width="142" height="80" alt="Ed. Resources Logo" />
 
                         <div id="text-1">
                             <p>

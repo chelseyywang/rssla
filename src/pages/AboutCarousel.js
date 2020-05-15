@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
@@ -15,19 +15,19 @@ class AboutCarousel extends Component {
         return (
             <Carousel>
                 <div>
-                    <img src = {pic1}/>
+                    <img src = {pic1} alt="Inter-UC Conference, 2019"/>
                     <p className="legend">inter-uc conference at ucsb, 2019</p>
                 </div>
                 <div>
-                    <img src = {pic2} />
+                    <img src = {pic2} alt="Kayaking, 2018"/>
                     <p className="legend">kayaking at marina del rey, 2018</p>
                 </div>
                 <div>
-                    <img src = {pic3} />
+                    <img src = {pic3} alt="Dinner with the Dean, 2018" />
                     <p className="legend">dinner with the dean, 2018</p>
                 </div>
                 <div>
-                    <img src = {pic4} />
+                    <img src = {pic4} alt="San Diego Zoo, 2017" />
                     <p className="legend">inter-uc event at the san diego zoo, 2017</p>
                 </div>
 
