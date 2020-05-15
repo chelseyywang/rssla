@@ -49,7 +49,7 @@ class Programs extends Component {
                             Los Angeles Mentorship Program (L.A.M.P.)
                         </div>
 
-                        <img id="right" src={LAMP_logo} width="250" height="250" />
+                        <img id="right" src={LAMP_logo} width="90" height="90" />
 
                         <div id="text-1">
                             <p>
@@ -66,7 +66,7 @@ class Programs extends Component {
                             Students Presenting, Innovating, Entertaining, Learning (S.P.I.E.L.)
                         </div>
 
-                        <img id="right" src={ucla} width="350" height="350" />
+                        <img id="right" src={ucla} width="90" height="90" />
 
                         <div id="text-1">
                             <p>
@@ -85,7 +85,7 @@ class Programs extends Component {
                         <div id="title">
                             Service
                         </div>
-                        <div id="text-1">
+                        <div id="text-service">
                             <p>
                                 Through partnerships with Heal the Bay and Meals on Wheels, the Regents Scholar Society hosts periodic service events throughout the year.
                                 Stay tuned on our Facebook group to get involved!
@@ -108,7 +108,7 @@ class Programs extends Component {
                             Mentorship and Families
                         </div>
 
-                        <img id="right" src={mentor_pic} width="350" height="350" />
+                        <img id="right" src={mentor_pic} width="150" height="150" />
 
                         <div id="text-1">
                             <p>
@@ -126,7 +126,7 @@ class Programs extends Component {
                             Educational Resources
                         </div>
 
-                        <img id="right" src={book_pic} width="426" height="240" />
+                        <img id="right" src={book_pic} width="142" height="80" />
 
                         <div id="text-1">
                             <p>

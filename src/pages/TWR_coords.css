@@ -4,7 +4,7 @@
     background-color: #EBEEFF;
     color: #3F004B;
     cursor: pointer;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: Nunito Sans;
     font-style: italic;
     padding: 5%;
@@ -32,20 +32,20 @@
 }
 
 #TWR_coord-picture {
-    width: 85%;
+    width: 80%;
     float: center;
     padding: 0.5%;
     background-color: #000000;
 }
 
 .TWR_coord-bio {
-    width: 100%;
+    width: 90%;
     display: float;
     float: right;
     font-family: Nunito Sans;
     font-weight: normal;
     font-style: normal;
-    text-align: left;
-    font-size: 1.5vw;
+    text-align: justify;
+    font-size: 1vw;
     padding: 2%;
 }

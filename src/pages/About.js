@@ -25,22 +25,23 @@ function About() {
                 </div>
             </div>
 
+
             <div class='page-wrapper'>
-                <div class='body-2'>
-                    <div class='body-2-title-wrap'>
-                        <div class='body-2-title'><strong>INTRODUCING RSS</strong></div>
-                    </div>
+                <div class='body-2-wrapper'>
                     <div class='aboutcarousel'>
                         <AboutCarousel />
                     </div>
-                    <div class='body-2-text-2-wrap' align='right'>
-                        <div class='body-2-text-2'>
-                            The Regents Scholar Society is composed of students with different identities, interests, and passions.
-                            Whether north campus or south campus, pre-med or business, scientists or artists,
+
+                    <div class='body-2-title-wrap'>
+                        <div class='body-2-title'><strong>INTRODUCING RSS</strong></div>
+                    </div>
+                    <div class='body-2-text-2'>
+                        The Regents Scholar Society is composed of students with different identities, interests, and passions.
+                        Whether north campus or south campus, pre-med or business, scientists or artists,
                             the society transcends these divisions through our shared commitment to scholarship, leadership, and service. <br /><br />
                             We strive to support our members and the local community through our various internal and external programs,
-                            including service events, leadership opportunities, and the Los Angeles Mentorship Program.</div>
-                    </div>
+                            including service events, leadership opportunities, and the Los Angeles Mentorship Program.
+                            </div>
                 </div>
 
                 <div class='body-3'>
