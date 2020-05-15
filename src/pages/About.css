@@ -98,44 +98,40 @@
   }
 
   .body-2-wrapper{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    overflow: auto;
   }
 
   .body-2-title{
     font-family: 'Roboto';
-    font-size: 4vw; 
-    text-align: center; 
+    font-size: 3vw; 
+    float: right;
     color:navy; 
     font-style: italic;
-    margin-top: 5%;
-    margin-bottom: -4%;
-    text-decoration: underline;
+    margin-bottom: 0%;
+    padding-right: 1%;
     
-  }
-
-  .body-2-text-1{
-    font-size: 1vw; 
-    font-family: 'Nunito Sans', serif;  
-    margin-top: -1%;  
   }
 
   .body-2-text-2{
     /* font-size: 1.5vw;  */
-    font-size: 14px;
+    display: float;
+    float: right;
+    font-size: 1.3vw;
     font-family: 'Nunito Sans', serif;   
-    text-align: left; 
-    width: 100%; 
+    text-align: justify; 
+    width: 50%;
     color: #0B3C5D; 
-    padding-top: 5%;
+    padding-top: 2%;
     padding-bottom: 5%;
   }
 
   .aboutcarousel {
-    margin-top: 5%;
-    width: auto;
-    height: 50%;
-    background-color: #000000;
+    display: float;
+    float: left;
+    margin-top: 0%;
+    width: 45%;
   }
 
   .body-3{
@@ -149,20 +145,18 @@
 
   .body-3-title{
     font-family: 'Roboto';
-    font-size: 4vw; 
-    text-align: center; 
+    font-size: 3vw; 
+    text-align: left; 
     color: navy; 
     font-style: italic;
     font-weight: bold;
-    margin-bottom: 5%;
-    margin-top: 10%;
-    text-decoration: underline;
+    margin-bottom: 3%;
   }
 
   .pillar{
     text-align: center; 
     background-color: #002E52; 
-    margin-bottom: 1%;
+    margin-bottom: 0.5%;
   }
 
   @media screen and (max-device-width: 600px) and (min-device-width: 400px){
@@ -183,9 +177,9 @@
     font-style: italic;
     font-weight: bold;
     color: #F9F1FF;
-    font-size: 20px;
+    font-size: 2vw;
     padding-left: 3%;
-    padding-top: 3%; 
+    padding-top: 1.2%; 
     text-align: center; 
   }
 
@@ -204,9 +198,9 @@
   .pillar-text-2{
     font-family: 'Nunito Sans', sans-serif;
     color: #EFF8FF; 
-    font-size: 14px; 
-    text-align: center; 
-    padding: 3%;
+    font-size: 1.3vw; 
+    text-align: left; 
+    padding: 2%;
     padding-left: 5%;
   }
   /* .pillar-text-2{
@@ -223,14 +217,13 @@
   }
 
   .sponsors-title{ 
-    font-size: 4vw; 
+    font-size: 3vw; 
     color: navy;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-style: italic;
-    text-align: center;
-    margin-bottom: 3%;
-    text-decoration: underline;
+    text-align: left;
+    margin-bottom: 2%;
   }
 
   .img-sponsor{
@@ -253,6 +246,6 @@
     flex: 33.33%;
     margin-left: auto;
     margin-right: auto;
-    padding: 3%;
+    padding: 1%;
   }
   

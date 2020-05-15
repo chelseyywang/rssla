@@ -23,14 +23,16 @@ function Prospectives() {
 
             <div class="freshman-prospectives">
 
-                <div class="body-3-prospectives">
-                    <div class="capital-heading">
+                <div class="body-2-prospectives">
+                    <div class="capital-heading-1">
                         INTRODUCING RSS
                     </div>
                     <div class="video-container"><iframe width="640" height="auto" src="https://www.youtube.com/embed/BFsoW4t7Agc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                            First and foremost, we at the Regents Scholar Society would like to congratulate you on receiving the scholarship. Watch the video above to get a gist of what we do,
-                            and scroll down for events tailored for both freshman and transfer prospective students. Hope to see you soon!
+                    <div id="video-caption">
+                        First and foremost, we at the Regents Scholar Society would like to congratulate you on receiving the scholarship. Watch the video above to get a gist of what we do,
+                        and scroll down for events tailored for both freshman and transfer prospective students. Hope to see you soon!
+                            </div>
                 </div>
 
                 <div class="freshman-transfer-header">
@@ -130,7 +132,48 @@ function Prospectives() {
                 </div>
 
                 <p class='body-2-prospectives'>
-                    <br />Stay tuned for updates regarding TWR (Transfer Welcome Reception)!                     For more information, reach out to the Transfer Affairs Director at transfers@rssla.org.
+                    <br />Welcome to the Regents Scholar Society’s Transfer Welcome Week! <br /><br />
+                    If you have questions regarding RSS, academics, research, extracurriculars, and student life at UCLA, then please attend our events during Transfer Welcome Week!
+                    Originally, the society planned to welcome all RSS prospective transfer students with an in-person welcome reception and a 2-day, 1 night program at UCLA.
+                    However, due to the unprecedented pandemic, the society is providing a virtual Transfer Welcome Week to welcome all of its prospective transfer students.
+                    The Transfer Welcome Week will be held from <strong>Monday, May 18th to Friday, May 22nd</strong>, and all events will be held through Zoom. We hope to see you there! <br /><br /></p>
+
+                <div class= 'twr-itinerary'>
+                    <div class='twr-itinerary-title'>
+                        THE ITINERARY: </div>
+                    <ul class='twr-itinerary-heading'>
+                        <li>MONDAY, MAY 18TH: Transfer Welcome Week Begins!</li>
+                        <ul class='twr-itinerary-subheading'>
+                            <li>General Information Session: 5:00 PM - 6:00 PM</li>
+                            <li>RSS Student Panel: 7:00 PM - 8:00 PM</li>
+                        </ul>
+                        <li>TUESDAY, MAY 19TH: Get to Know RSS! </li>
+                        <ul class='twr-itinerary-subheading'>
+                            <li>Inroduction to the Transfer Student Center ft. Georgia de Laine: 12:00 PM - 1:00 PM</li>
+                            <li>General Information Session: 5:00 PM - 6:00 PM</li>
+                            <li>Game Night: 8:00 PM - 9:00 PM</li>
+                        </ul>
+                        <li>WEDNESDAY, MAY 20TH: Research and Academics </li>
+                        <ul class='twr-itinerary-subheading'>
+                            <li>Research Panel: 1:00 PM - 2:00 PM</li>
+                            <li>Academic Advising Workshop: 5:30 PM - 6:30 PM</li>
+                            <li>Transfer Timeline Workshop: 6:30 PM - 7:30 PM</li>
+                        </ul>
+                        <li>THURSDAY, MAY 21ST: Extracurriculars </li>
+                        <ul class='twr-itinerary-subheading'>
+                            <li>Meet the Board: Extracurriulars Panel: 6:00 PM - 7:00 PM</li>
+                            <li>Internship Discussion: 7:00 PM - 8:00 PM</li>
+                        </ul>
+                        <li>FRIDAY, MAY 22ND: Transfer Welcome Week Ends! </li>
+                        <ul class='twr-itinerary-subheading'>
+                            <li>Ask the Coords (Q&A Session): 5:00 PM - 6:00 PM</li>
+                        </ul>
+                    </ul>
+                </div>
+
+                <p class='body-2-prospectives'>If you are a prospective UCLA transfer student who was accepted to UCLA with the Regents Scholarship, please join <a href="https://www.facebook.com/groups/661412984441205/">this Facebook Group</a> to meet other prospective transfers as well as current RSS students! <br /><br />
+                    Below, you can find details about our Transfer Affairs coordinators that have worked hard to put on our Transfer Welcome Week. For more information or general questions, please reach out to the Transfer Affairs Director, Raymond DeAngelo, at transfers@rssla.org.
+
 
                 </p>
 

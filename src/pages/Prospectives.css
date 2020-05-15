@@ -61,6 +61,7 @@
 .body-2-prospectives {
     font-family: Nunito Sans;
     font-size: 1vw;
+    overflow: auto;
 
     /* margin: auto; */
     padding-top: 2%;
@@ -72,6 +73,7 @@
     font-size: 1vw;
     line-height: 1.5vw;
     padding-top: 1%;
+    overflow: auto;
 
     background-color: #D9E9FF;
 }
@@ -82,11 +84,24 @@
 }
 
 .capital-heading {
-    font-size: 3vw;
+    font-size: 2vw;
     color: navy;
     line-height: 4vw;
     font-weight: bold;
     padding: 2%;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    text-align: left;
+}
+
+.capital-heading-1 {
+    float: right;
+    font-size: 3vw;
+    color: navy;
+    line-height: 4vw;
+    font-weight: bold;
+    padding: 1%;
+    margin-right: 3.5%;
     font-family: Roboto, sans-serif;
     font-style: italic;
     text-align: left;
@@ -172,6 +187,7 @@ span.left-float {
 .the-scholarship {
     width: 100%;
     margin: auto;
+    margin-top: 1%;
     margin-bottom: 7%;
 }
 
@@ -235,9 +251,11 @@ span.left-float {
 }
 
 .video-container {
+    float: left;
     overflow: hidden;
     position: relative;
-    width:60%;
+    width: 50%;
+    margin: 5%;
     margin: auto;
 }
 
@@ -253,6 +271,14 @@ span.left-float {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+#video-caption {
+    float: right;
+    width: 40%;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 1%;
 }
 
 .session-column {
@@ -313,4 +339,36 @@ span.left-float {
       margin-bottom: 3%;
       float: left;
 
+  }
+
+  .twr-itinerary-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2vw;
+    line-height: 1%;
+    text-align: left;
+    padding-bottom: 5%;
+
+    color: navy;
+
+  }
+  .twr-itinerary-heading {
+    font-family:  Nunito Sans;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+    overflow: auto;
+
+  }
+  .twr-itinerary-subheading {
+    font-family:  Nunito Sans;
+    font-size: 1vw;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    line-height: 1.5vw;
+    padding-bottom: 1%;
+    font-weight: normal;
+    font-style: normal;
   }
