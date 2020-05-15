@@ -18,6 +18,13 @@
   font-style: italic;
 }
 
-#contact-description {
+.contact-field {
+  padding: 4px;
+  margin-bottom: 5px;
+  border: 1px solid #d1cfcf;
+  border-radius: 5px;
+}
 
+.contact-field.body {
+  resize: none;
 }
