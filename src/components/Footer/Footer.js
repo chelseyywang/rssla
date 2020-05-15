@@ -1,11 +1,11 @@
 import React from 'react';
 import './Footer.css';
-import RSS_logo from './nav_bar_logo.png'; // RSS Logo
+//import RSS_logo from './nav_bar_logo.png'; // RSS Logo
 import linkedin from './LI-In-Bug.png'; // LinkedIn Logo
 import facebook from './f_logo_RGB-White_58.png'; // Twitter Logo
-console.log(RSS_logo);
+/*console.log(RSS_logo);
 console.log(linkedin);
-console.log(facebook);
+console.log(facebook);*/
 
 function Footer() {
     return (

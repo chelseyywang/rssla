@@ -15,15 +15,15 @@ function AppRouter() {
   return (
     <div>
       <BrowserRouter>
-      <NewHeader/>
-      <Switch>
-        <Route path='/' exact component={About} />
-        <Route path='/prospectives' component={Prospectives} />
-        <Route path='/board' component={Board} />
-        <Route path='/programs' component={Programs} />
-        <Route path='/contact' component={Contact} />
-      </Switch>
-      <Footer/>
+        <NewHeader/>
+        <Switch>
+          <Route path='/' exact component={About} />
+          <Route path='/prospectives' component={Prospectives} />
+          <Route path='/board' component={Board} />
+          <Route path='/programs' component={Programs} />
+          <Route path='/contact' component={Contact} />
+        </Switch>
+        <Footer/>
       </BrowserRouter>
     </div>
   );

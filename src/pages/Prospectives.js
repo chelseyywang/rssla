@@ -29,7 +29,7 @@ function Prospectives() {
                     </div>
                     <div class="video-container">
                         <iframe title="Introducing RSS" width="640" height="auto" src="https://www.youtube.com/embed/BFsoW4t7Agc" frameborder="0" 
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true" SameSite="none"></iframe>
                     </div>
                     <div id="video-caption">
                         First and foremost, we at the Regents Scholar Society would like to congratulate you on receiving the scholarship. Watch the video above to get a gist of what we do,
